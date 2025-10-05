@@ -25,6 +25,19 @@
       },
       "dependencies": [
         {
+          "group": "teamreborn",
+          "module": "energy",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
           "group": "mezz.jei",
           "module": "jei-1.20.1-common-api",
           "version": {
@@ -43,11 +56,11 @@
         {
           "name": "slashblade-fabric-addons-1.1.0+mc1.20.1.jar",
           "url": "slashblade-fabric-addons-1.1.0+mc1.20.1.jar",
-          "size": 5991061,
-          "sha512": "c2ad7b3fa3d1461c1ad4f90062093a663c435fdfb49e2bc1c1f544649e4376de5fd51478c991ff8952d1379b813d621d1b77adf73893e66143fbf774fd9aa761",
-          "sha256": "b0347ad587a93867fd8c1b7c600d3056681ff31ad633f0693ddfb6ec96f567bd",
-          "sha1": "92987f7f2a6c73adcdeaa4b23ca18aaae0f30632",
-          "md5": "98423f80d8e821c71297516746ffc6ea"
+          "size": 6013454,
+          "sha512": "9f3387c93420fe7a687ccb9601fedc9a5a41749f8bf1d1401ac4272a8e52b67ffca37abe5cb464a8a351553e9d67af15c9e3613916b78a988262cf68ca43a2d2",
+          "sha256": "5eb140a78b1692f6065952aab8a24b564f5529d0198da439ab8127251b98f1a0",
+          "sha1": "c56bb5ac308b382e600e5dd4ff4964f5b415d3e6",
+          "md5": "7705781d738052b01a13f30c2cfedbe6"
         }
       ]
     },
@@ -61,6 +74,19 @@
         "org.gradle.usage": "java-runtime"
       },
       "dependencies": [
+        {
+          "group": "teamreborn",
+          "module": "energy",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
         {
           "group": "net.fabricmc",
           "module": "fabric-loader",
@@ -136,11 +162,11 @@
         {
           "name": "slashblade-fabric-addons-1.1.0+mc1.20.1.jar",
           "url": "slashblade-fabric-addons-1.1.0+mc1.20.1.jar",
-          "size": 5991061,
-          "sha512": "c2ad7b3fa3d1461c1ad4f90062093a663c435fdfb49e2bc1c1f544649e4376de5fd51478c991ff8952d1379b813d621d1b77adf73893e66143fbf774fd9aa761",
-          "sha256": "b0347ad587a93867fd8c1b7c600d3056681ff31ad633f0693ddfb6ec96f567bd",
-          "sha1": "92987f7f2a6c73adcdeaa4b23ca18aaae0f30632",
-          "md5": "98423f80d8e821c71297516746ffc6ea"
+          "size": 6013454,
+          "sha512": "9f3387c93420fe7a687ccb9601fedc9a5a41749f8bf1d1401ac4272a8e52b67ffca37abe5cb464a8a351553e9d67af15c9e3613916b78a988262cf68ca43a2d2",
+          "sha256": "5eb140a78b1692f6065952aab8a24b564f5529d0198da439ab8127251b98f1a0",
+          "sha1": "c56bb5ac308b382e600e5dd4ff4964f5b415d3e6",
+          "md5": "7705781d738052b01a13f30c2cfedbe6"
         }
       ]
     },
