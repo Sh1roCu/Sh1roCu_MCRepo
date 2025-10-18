@@ -36,11 +36,11 @@
         {
           "name": "slashblade-refabricated-1.21.1-1.1.1-Resharped-1.8.57.jar",
           "url": "slashblade-refabricated-1.21.1-1.1.1-Resharped-1.8.57.jar",
-          "size": 7126818,
-          "sha512": "49014b4eda413e4cafe9e9755537ccdba573c4bd23f4d31e8ed11d2d08f17f7f81c4b9bc1f1fba076b0a9783424d927bb0dceebce24404ee0c3366f8ccf52cbd",
-          "sha256": "76da79f3472b39580801bdbda300e2c7d57b4efd5fd13712ce6e6add53301ac6",
-          "sha1": "875937c2b2b25ac6fcbed25baf2475dbdfdb611e",
-          "md5": "7b8b499aa0527d25f7d66255226dcbe7"
+          "size": 7126913,
+          "sha512": "6e977580c6a8fbbfe060748648e67c9d6a1955fc97a2d1c41dd0b97e286415429f03c39f650cdad30a511f32dcd32aa7e65ccee069b041933b9bb0e57be49ab6",
+          "sha256": "235104e6fbc8c63547662e4909658f26089484e6efd1a82cd45c9cddfb798a50",
+          "sha1": "bc3f34ee9d921d900bc7a12c36460535e3a668e4",
+          "md5": "3b0ecee6e749ae03b9363a17c14cb95a"
         }
       ]
     },
@@ -171,11 +171,11 @@
         {
           "name": "slashblade-refabricated-1.21.1-1.1.1-Resharped-1.8.57.jar",
           "url": "slashblade-refabricated-1.21.1-1.1.1-Resharped-1.8.57.jar",
-          "size": 7126818,
-          "sha512": "49014b4eda413e4cafe9e9755537ccdba573c4bd23f4d31e8ed11d2d08f17f7f81c4b9bc1f1fba076b0a9783424d927bb0dceebce24404ee0c3366f8ccf52cbd",
-          "sha256": "76da79f3472b39580801bdbda300e2c7d57b4efd5fd13712ce6e6add53301ac6",
-          "sha1": "875937c2b2b25ac6fcbed25baf2475dbdfdb611e",
-          "md5": "7b8b499aa0527d25f7d66255226dcbe7"
+          "size": 7126913,
+          "sha512": "6e977580c6a8fbbfe060748648e67c9d6a1955fc97a2d1c41dd0b97e286415429f03c39f650cdad30a511f32dcd32aa7e65ccee069b041933b9bb0e57be49ab6",
+          "sha256": "235104e6fbc8c63547662e4909658f26089484e6efd1a82cd45c9cddfb798a50",
+          "sha1": "bc3f34ee9d921d900bc7a12c36460535e3a668e4",
+          "md5": "3b0ecee6e749ae03b9363a17c14cb95a"
         }
       ]
     },
@@ -191,11 +191,11 @@
         {
           "name": "slashblade-refabricated-1.21.1-1.1.1-Resharped-1.8.57-sources.jar",
           "url": "slashblade-refabricated-1.21.1-1.1.1-Resharped-1.8.57-sources.jar",
-          "size": 3549829,
-          "sha512": "b34d96be9d2ce4b6b3d9d41398480282762ca2f9b0eb17c7ddf113effe096cb82416ae1820c34a9f6843e112989e039f28641c169b2b81bd2df5bb154d572de6",
-          "sha256": "825c1e1a7ea0a2b11925b72739a503571b94442b3c5392274b1f42cc9f72d523",
-          "sha1": "f7e08991c8e476cf10b6ad7b3bd528abb734418d",
-          "md5": "9e6d264a9539a47aeb01b8f2d86f355a"
+          "size": 3549881,
+          "sha512": "40ac6f6766f818e78ff05fd52c32f42e49a2bedb9a10a3e76e9d7772686aaa4e3c91ff192a9aabb70b8ed5b5bda57f3d8f6a363ad745da96235037f7f28f15b6",
+          "sha256": "d37b89ab313d160d842a9bb7cdd53e61bdcf1d6b6f9a7d160a7378952cfbe5d9",
+          "sha1": "1020a6a8049b6f38e7702ee0f34d13a78318beeb",
+          "md5": "b4ad3a798d4a73aee7494c687c85ed58"
         }
       ]
     }
