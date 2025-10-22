@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.sh1rocu",
+    "module": "tourguide-fabric",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "8.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tourguide-fabric-1.0.0.jar",
+          "url": "tourguide-fabric-1.0.0.jar",
+          "size": 128587,
+          "sha512": "4a20edea0f3a1e3355a7aa82d1a0ede62b2a49ddc4bcf1bd2ff3876ada69eac7097cfc5f6d73a19ad58efbff3ba48e0597614e8940f826b63d0d9ff21c60c0df",
+          "sha256": "9b8c210d512baa360a689f06cd0d557cb70a1457e9d4d204df00ddfa2fe0d1f6",
+          "sha1": "6075971fee85f525bf3864a138c894b81f5eac47",
+          "md5": "3c3187256efae5ec584358a41d64bb30"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "8.0.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.17.2"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.6+1.20.1"
+          }
+        },
+        {
+          "group": "dev.latvian.mods",
+          "module": "kubejs-fabric",
+          "version": {
+            "requires": "2001.6.5-build.16"
+          }
+        },
+        {
+          "group": "dev.latvian.mods",
+          "module": "rhino-fabric",
+          "version": {
+            "requires": "2001.2.3-build.10"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "9.2.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tourguide-fabric-1.0.0.jar",
+          "url": "tourguide-fabric-1.0.0.jar",
+          "size": 128587,
+          "sha512": "4a20edea0f3a1e3355a7aa82d1a0ede62b2a49ddc4bcf1bd2ff3876ada69eac7097cfc5f6d73a19ad58efbff3ba48e0597614e8940f826b63d0d9ff21c60c0df",
+          "sha256": "9b8c210d512baa360a689f06cd0d557cb70a1457e9d4d204df00ddfa2fe0d1f6",
+          "sha1": "6075971fee85f525bf3864a138c894b81f5eac47",
+          "md5": "3c3187256efae5ec584358a41d64bb30"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tourguide-fabric-1.0.0-sources.jar",
+          "url": "tourguide-fabric-1.0.0-sources.jar",
+          "size": 70281,
+          "sha512": "0078579396aaa3fd7bbf1fa03722322bd8e4736fa9c007765cd08c2203d66b002c1742b5c0b640dc1a42c3efe85172a4d5982bb44c9defc24afd459a90deb269",
+          "sha256": "f74ca5285f0c546d1fb1478408895002fbe514f1a2132327f37a78824a59231a",
+          "sha1": "e453c038afc2346f2a493bb344a68418e2dfee9a",
+          "md5": "f66d8cf18678d6ebc123c152c52d1f76"
+        }
+      ]
+    }
+  ]
+}
