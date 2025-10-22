@@ -36,11 +36,11 @@
         {
           "name": "tourguide-fabric-1.0.0.jar",
           "url": "tourguide-fabric-1.0.0.jar",
-          "size": 128587,
-          "sha512": "4a20edea0f3a1e3355a7aa82d1a0ede62b2a49ddc4bcf1bd2ff3876ada69eac7097cfc5f6d73a19ad58efbff3ba48e0597614e8940f826b63d0d9ff21c60c0df",
-          "sha256": "9b8c210d512baa360a689f06cd0d557cb70a1457e9d4d204df00ddfa2fe0d1f6",
-          "sha1": "6075971fee85f525bf3864a138c894b81f5eac47",
-          "md5": "3c3187256efae5ec584358a41d64bb30"
+          "size": 128603,
+          "sha512": "eb474fa6dbe849390368955c7c81a8e859177b7feb838ca351e73aaa0a08bed2c3501eed6d9327cc28d1917dc43c97f3118169275fcbaf62d3af86e585514e64",
+          "sha256": "f32b126c2049fc74536d7c3d58101d1a70bcdbfeecdc9117c1533ba05f51c659",
+          "sha1": "e53865efe8cc6fd7d878b09c26d2b3a36b5eb3e4",
+          "md5": "f19721eb7408e581d6ec8296b9d39429"
         }
       ]
     },
@@ -101,11 +101,11 @@
         {
           "name": "tourguide-fabric-1.0.0.jar",
           "url": "tourguide-fabric-1.0.0.jar",
-          "size": 128587,
-          "sha512": "4a20edea0f3a1e3355a7aa82d1a0ede62b2a49ddc4bcf1bd2ff3876ada69eac7097cfc5f6d73a19ad58efbff3ba48e0597614e8940f826b63d0d9ff21c60c0df",
-          "sha256": "9b8c210d512baa360a689f06cd0d557cb70a1457e9d4d204df00ddfa2fe0d1f6",
-          "sha1": "6075971fee85f525bf3864a138c894b81f5eac47",
-          "md5": "3c3187256efae5ec584358a41d64bb30"
+          "size": 128603,
+          "sha512": "eb474fa6dbe849390368955c7c81a8e859177b7feb838ca351e73aaa0a08bed2c3501eed6d9327cc28d1917dc43c97f3118169275fcbaf62d3af86e585514e64",
+          "sha256": "f32b126c2049fc74536d7c3d58101d1a70bcdbfeecdc9117c1533ba05f51c659",
+          "sha1": "e53865efe8cc6fd7d878b09c26d2b3a36b5eb3e4",
+          "md5": "f19721eb7408e581d6ec8296b9d39429"
         }
       ]
     },
@@ -121,11 +121,11 @@
         {
           "name": "tourguide-fabric-1.0.0-sources.jar",
           "url": "tourguide-fabric-1.0.0-sources.jar",
-          "size": 70281,
-          "sha512": "0078579396aaa3fd7bbf1fa03722322bd8e4736fa9c007765cd08c2203d66b002c1742b5c0b640dc1a42c3efe85172a4d5982bb44c9defc24afd459a90deb269",
-          "sha256": "f74ca5285f0c546d1fb1478408895002fbe514f1a2132327f37a78824a59231a",
-          "sha1": "e453c038afc2346f2a493bb344a68418e2dfee9a",
-          "md5": "f66d8cf18678d6ebc123c152c52d1f76"
+          "size": 70298,
+          "sha512": "023a6beb8a79cf6e1a75474d4f1a8fddd1675218efbea08d2f25000c2c563b1b61c12f285a2ba7629d198d6871214a9d5a4f10a35e416a46ad5dbf193d89c0e8",
+          "sha256": "038ac6acadbf754f94f44d08b2d80c13fe03590e36a14fc33109fa06ae07c05e",
+          "sha1": "4877065a5f5b45204c31358123e2061d06eae194",
+          "md5": "5814d076085ed3c03d563bb63330e157"
         }
       ]
     }
