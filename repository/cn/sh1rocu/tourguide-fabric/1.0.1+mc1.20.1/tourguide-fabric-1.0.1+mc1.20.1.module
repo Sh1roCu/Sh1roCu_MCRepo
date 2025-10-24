@@ -1,0 +1,140 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.sh1rocu",
+    "module": "tourguide-fabric",
+    "version": "1.0.1+mc1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "8.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tourguide-fabric-1.0.1+mc1.20.1.jar",
+          "url": "tourguide-fabric-1.0.1+mc1.20.1.jar",
+          "size": 2270854,
+          "sha512": "9078417beb8925234cca1633d6316e0a6b09b1949c51ad573590db470785240790fa208268119fee1b9da6dd633652ead1f520b87ba712d2c2df9d1ae5add8d8",
+          "sha256": "3aeeba5e26fc77ecfa54a2e6cac97f08841f2795b90b66171c6dc618463c5eb3",
+          "sha1": "7cac9147782f55782d37488a194bb02a848a40a7",
+          "md5": "0195e254aeda0b699c8a49a39c09ba4b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "8.0.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.17.2"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.6+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "base",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "dev.latvian.mods",
+          "module": "kubejs-fabric",
+          "version": {
+            "requires": "2001.6.5-build.16"
+          }
+        },
+        {
+          "group": "dev.latvian.mods",
+          "module": "rhino-fabric",
+          "version": {
+            "requires": "2001.2.3-build.10"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "9.2.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tourguide-fabric-1.0.1+mc1.20.1.jar",
+          "url": "tourguide-fabric-1.0.1+mc1.20.1.jar",
+          "size": 2270854,
+          "sha512": "9078417beb8925234cca1633d6316e0a6b09b1949c51ad573590db470785240790fa208268119fee1b9da6dd633652ead1f520b87ba712d2c2df9d1ae5add8d8",
+          "sha256": "3aeeba5e26fc77ecfa54a2e6cac97f08841f2795b90b66171c6dc618463c5eb3",
+          "sha1": "7cac9147782f55782d37488a194bb02a848a40a7",
+          "md5": "0195e254aeda0b699c8a49a39c09ba4b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tourguide-fabric-1.0.1+mc1.20.1-sources.jar",
+          "url": "tourguide-fabric-1.0.1+mc1.20.1-sources.jar",
+          "size": 70246,
+          "sha512": "c3723e17d17b30fcc8f7bffc605eb4d407fee6175e337113448cbc6971ef42ecd0e3f0ea04b2417ac46689fddc6f55425e1811aa6733457b566a3329b392a501",
+          "sha256": "5a9f572d70a1029e81b09fb9642ce8344ce41d3f1adbe3957b0a2ede8d4196da",
+          "sha1": "3f26b1de857c69b5866d39e9e02223d5c2641804",
+          "md5": "7287532bbefc1e53e178d33bfe0f9972"
+        }
+      ]
+    }
+  ]
+}
