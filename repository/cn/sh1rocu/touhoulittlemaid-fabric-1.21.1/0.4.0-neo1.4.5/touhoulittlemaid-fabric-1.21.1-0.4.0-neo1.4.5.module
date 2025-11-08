@@ -36,11 +36,11 @@
         {
           "name": "touhoulittlemaid-fabric-1.21.1-0.4.0-neo1.4.5.jar",
           "url": "touhoulittlemaid-fabric-1.21.1-0.4.0-neo1.4.5.jar",
-          "size": 24621395,
-          "sha512": "b92fd25cd15e49084442c32e09369e045a177062452bc3aed94268438fdf22f32c360d8b0eb1e36f2a5dd467115383272d84172a2e6231e8ad53ab0da5b822d8",
-          "sha256": "8ea12ba189ef639c8695411f144690e5a2301cb17de1ff66197c20883f08375e",
-          "sha1": "3ceaf83afcd975e9d9808fa1456e422041a27eae",
-          "md5": "0f2a85696c8288280aea166ca6c81863"
+          "size": 24621420,
+          "sha512": "5ad3f98955a5bf008edc2f3b87f892fd65e226ce9b84779da6e47ca83da47bae09f745d12acb558436a1099b963607a5235b7a3a658d1ae757992246e5a863c7",
+          "sha256": "f282afa684998a7a76a645394e08eb6d56c02bbfb4c86f936301cc2b8bec81c9",
+          "sha1": "c60c4044a9bbf14471bf67ad6246c1f478e59519",
+          "md5": "a9b677a9d863f4fdcb21ae814f7dded4"
         }
       ]
     },
@@ -342,11 +342,11 @@
         {
           "name": "touhoulittlemaid-fabric-1.21.1-0.4.0-neo1.4.5.jar",
           "url": "touhoulittlemaid-fabric-1.21.1-0.4.0-neo1.4.5.jar",
-          "size": 24621395,
-          "sha512": "b92fd25cd15e49084442c32e09369e045a177062452bc3aed94268438fdf22f32c360d8b0eb1e36f2a5dd467115383272d84172a2e6231e8ad53ab0da5b822d8",
-          "sha256": "8ea12ba189ef639c8695411f144690e5a2301cb17de1ff66197c20883f08375e",
-          "sha1": "3ceaf83afcd975e9d9808fa1456e422041a27eae",
-          "md5": "0f2a85696c8288280aea166ca6c81863"
+          "size": 24621420,
+          "sha512": "5ad3f98955a5bf008edc2f3b87f892fd65e226ce9b84779da6e47ca83da47bae09f745d12acb558436a1099b963607a5235b7a3a658d1ae757992246e5a863c7",
+          "sha256": "f282afa684998a7a76a645394e08eb6d56c02bbfb4c86f936301cc2b8bec81c9",
+          "sha1": "c60c4044a9bbf14471bf67ad6246c1f478e59519",
+          "md5": "a9b677a9d863f4fdcb21ae814f7dded4"
         }
       ]
     },
@@ -362,11 +362,11 @@
         {
           "name": "touhoulittlemaid-fabric-1.21.1-0.4.0-neo1.4.5-sources.jar",
           "url": "touhoulittlemaid-fabric-1.21.1-0.4.0-neo1.4.5-sources.jar",
-          "size": 20266829,
-          "sha512": "8888b8486e131ee56c8b7adcfed0e5fc09efe932e60045d0b15cd365042af3b12223b991c34062d23dcf1a8c7499a9bf9a990d24dd525fe712390cc7ef1e81cb",
-          "sha256": "e65f1c3d5e45b06792549752c88192cdde8d8539f22b90c1229b202b36ebd785",
-          "sha1": "434f77fdc95247362a326976919c96115c80e2ea",
-          "md5": "c9b6cd5ed83670578e3d335ac9f92c2d"
+          "size": 20266847,
+          "sha512": "4d38cb4c2ba8d78fb534291e80ab47e4a1f16688c87b25e47910e86516f43f3ce54afcc9aa020ff1918c5f62f8a73882a76ac9631e16e36965876d9a146f387f",
+          "sha256": "506c0f50cb3b50e6b0b9b67bc4a0605c0032a7292f08e5b088ba08302732244f",
+          "sha1": "fedb70b70cadb195220dddc5ddeea6a512c680ec",
+          "md5": "e43a53c9611e632bfdbf35f7706d85c8"
         }
       ]
     }

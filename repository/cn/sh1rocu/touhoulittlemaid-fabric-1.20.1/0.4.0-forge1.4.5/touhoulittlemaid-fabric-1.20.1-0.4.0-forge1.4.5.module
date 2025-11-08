@@ -36,11 +36,11 @@
         {
           "name": "touhoulittlemaid-fabric-1.20.1-0.4.0-forge1.4.5.jar",
           "url": "touhoulittlemaid-fabric-1.20.1-0.4.0-forge1.4.5.jar",
-          "size": 27108266,
-          "sha512": "c3a40911928506b204dc0945ba23ad3d6cbc4032fb7c19baf77b57dce4b51d5384058318e4bf901ddd426feb2a69811d4a808563c8295f0f612387d361d82544",
-          "sha256": "21a164a1a35c7974030ecffb574212fbbefcd19ca97bb7a1589ed6bfed971b99",
-          "sha1": "53724aec95ce86c2affaa987251bf08a599d0a01",
-          "md5": "11a55c272796e49fd1f7bcd88026e5f8"
+          "size": 27108303,
+          "sha512": "af431da0600b04ca7e228d2076b9d4463852be7df657f3c6d1c0a39e2864104a1c573107c9d9881d17f24575b15b28774e36a7892606ca2ae897bdc500c18e2a",
+          "sha256": "cc026e8af75c01eb2b8c46c53fd8dc9158981433fc3aacf92aa2a71dd8ae9cdf",
+          "sha1": "e5bda533f2c545f2108b071e7b5d632ea3307283",
+          "md5": "a4d40e5f565310699cad0a73650a828c"
         }
       ]
     },
@@ -412,11 +412,11 @@
         {
           "name": "touhoulittlemaid-fabric-1.20.1-0.4.0-forge1.4.5.jar",
           "url": "touhoulittlemaid-fabric-1.20.1-0.4.0-forge1.4.5.jar",
-          "size": 27108266,
-          "sha512": "c3a40911928506b204dc0945ba23ad3d6cbc4032fb7c19baf77b57dce4b51d5384058318e4bf901ddd426feb2a69811d4a808563c8295f0f612387d361d82544",
-          "sha256": "21a164a1a35c7974030ecffb574212fbbefcd19ca97bb7a1589ed6bfed971b99",
-          "sha1": "53724aec95ce86c2affaa987251bf08a599d0a01",
-          "md5": "11a55c272796e49fd1f7bcd88026e5f8"
+          "size": 27108303,
+          "sha512": "af431da0600b04ca7e228d2076b9d4463852be7df657f3c6d1c0a39e2864104a1c573107c9d9881d17f24575b15b28774e36a7892606ca2ae897bdc500c18e2a",
+          "sha256": "cc026e8af75c01eb2b8c46c53fd8dc9158981433fc3aacf92aa2a71dd8ae9cdf",
+          "sha1": "e5bda533f2c545f2108b071e7b5d632ea3307283",
+          "md5": "a4d40e5f565310699cad0a73650a828c"
         }
       ]
     },
@@ -432,11 +432,11 @@
         {
           "name": "touhoulittlemaid-fabric-1.20.1-0.4.0-forge1.4.5-sources.jar",
           "url": "touhoulittlemaid-fabric-1.20.1-0.4.0-forge1.4.5-sources.jar",
-          "size": 20363647,
-          "sha512": "968f7c642ae17b7400296a4d61f23d3c8c9b01fb6c39640d78d77818ae7dd6dece571ee39e0d3e5f0e7834ed864ef8960f6ac2bd95112b2cf2fc26b8c96c6edf",
-          "sha256": "0cde77f23153572c77f896c48638bb87d47d2702325254c078f719cf440eb116",
-          "sha1": "126fa48c8ecf6b5204e35f157383f449b4c03ac0",
-          "md5": "89fadc81b7b1e45e9cb7d48bb94889d3"
+          "size": 20363679,
+          "sha512": "f8c5f6dcd92c5031db70faf77e2b689c1fb95255d4f43811285f45fe63f4ff382885b3cdabf148066057528335d347bf4b22b2a728cf20f948fae617723d02cf",
+          "sha256": "488f607aeee5175b9a73237401ee7841e49dc75acbb46f47ac5055c21af4342e",
+          "sha1": "00d98b1e49bcbff7085a059e55b554cdf1d9817d",
+          "md5": "0df74e57ff2c7432890c22adcd2ab9fa"
         }
       ]
     }
