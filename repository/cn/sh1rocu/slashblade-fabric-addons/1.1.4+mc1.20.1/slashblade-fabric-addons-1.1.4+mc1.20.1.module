@@ -56,11 +56,11 @@
         {
           "name": "slashblade-fabric-addons-1.1.4+mc1.20.1.jar",
           "url": "slashblade-fabric-addons-1.1.4+mc1.20.1.jar",
-          "size": 6014400,
-          "sha512": "58497946430f7a52a04c4fca1e93400d74236a775791122c13392dfe4a2be3ce170b4a98b2370d89b3d6086760d85f5475395b1ca41c6092bfc885eb3edfe5c8",
-          "sha256": "25bf26c1c1238684fb64b8cdff31fdf308cc5ca5da99bbeb8a789bb086200442",
-          "sha1": "175f42b1bf7ee194eeac10cdcb02277ca2039528",
-          "md5": "62ef453b3233a9a927097404840397bd"
+          "size": 6014547,
+          "sha512": "1646e7dd49c0cf4739a0d7d2fcefee2a5e4728e7b2424087e0c64ccbc63ee2c5c22271c6d43010122581a5983dc99a5fbe0396f987bfa7b553e9f5fe14f6ff1e",
+          "sha256": "e27e8e6d223224cac6e39aa1092d25de5020e531957ba470a080c0ec4a6a01da",
+          "sha1": "2831a2b6caee4147f36fb8580b85188dca305b9b",
+          "md5": "f9c7eed99073de1c907a911c04fccf3a"
         }
       ]
     },
@@ -169,11 +169,11 @@
         {
           "name": "slashblade-fabric-addons-1.1.4+mc1.20.1.jar",
           "url": "slashblade-fabric-addons-1.1.4+mc1.20.1.jar",
-          "size": 6014400,
-          "sha512": "58497946430f7a52a04c4fca1e93400d74236a775791122c13392dfe4a2be3ce170b4a98b2370d89b3d6086760d85f5475395b1ca41c6092bfc885eb3edfe5c8",
-          "sha256": "25bf26c1c1238684fb64b8cdff31fdf308cc5ca5da99bbeb8a789bb086200442",
-          "sha1": "175f42b1bf7ee194eeac10cdcb02277ca2039528",
-          "md5": "62ef453b3233a9a927097404840397bd"
+          "size": 6014547,
+          "sha512": "1646e7dd49c0cf4739a0d7d2fcefee2a5e4728e7b2424087e0c64ccbc63ee2c5c22271c6d43010122581a5983dc99a5fbe0396f987bfa7b553e9f5fe14f6ff1e",
+          "sha256": "e27e8e6d223224cac6e39aa1092d25de5020e531957ba470a080c0ec4a6a01da",
+          "sha1": "2831a2b6caee4147f36fb8580b85188dca305b9b",
+          "md5": "f9c7eed99073de1c907a911c04fccf3a"
         }
       ]
     },
@@ -189,11 +189,11 @@
         {
           "name": "slashblade-fabric-addons-1.1.4+mc1.20.1-sources.jar",
           "url": "slashblade-fabric-addons-1.1.4+mc1.20.1-sources.jar",
-          "size": 3801077,
-          "sha512": "e1e26093d5e215d46ba873b169a83ed54e642ebc045bd30e4d0058f23027da6cf25ca51341160146f9882dea236a8a1d36ec6e49efd63edd847b632e776f034a",
-          "sha256": "8400ceb51b400335aabe040d180221bbdc71ec8190df64da39b42a0247ade5ed",
-          "sha1": "ae855d467764f9d4278b37a38b938d7851b2c67a",
-          "md5": "52a0e3c28563bdb1e12ad99af713a76b"
+          "size": 3801116,
+          "sha512": "c32cce707ff18229d8692258fb0ef8291e26b2fbe7505abeb63e70c34555de2fc40da005f03d0c2f8f4d45c0b5aceceed93a1b5eaf31bc49bbe7e60fc69c3b55",
+          "sha256": "a502ef71241189118097daaa6c6dbc3aeef04281ebffde88fe2a48a20eee2c7d",
+          "sha1": "cbd352abf64347c7d2f162c181cd080a146f1c12",
+          "md5": "17c3e2da08addf5c91c70c65eeb7db95"
         }
       ]
     }
