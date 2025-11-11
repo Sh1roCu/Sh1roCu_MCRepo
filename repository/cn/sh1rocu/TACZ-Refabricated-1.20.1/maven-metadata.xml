@@ -3,12 +3,13 @@
   <groupId>cn.sh1rocu</groupId>
   <artifactId>TACZ-Refabricated-1.20.1</artifactId>
   <versioning>
-    <latest>0.0.7-forge1.1.6-hotfix</latest>
-    <release>0.0.7-forge1.1.6-hotfix</release>
+    <latest>0.1.0-forge1.1.6-hotfix</latest>
+    <release>0.1.0-forge1.1.6-hotfix</release>
     <versions>
       <version>0.0.6-forge1.1.6-hotfix</version>
       <version>0.0.7-forge1.1.6-hotfix</version>
+      <version>0.1.0-forge1.1.6-hotfix</version>
     </versions>
-    <lastUpdated>20251016020639</lastUpdated>
+    <lastUpdated>20251111055349</lastUpdated>
   </versioning>
 </metadata>
