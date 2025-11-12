@@ -362,11 +362,11 @@
         {
           "name": "touhoulittlemaid-fabric-1.21.1-0.4.0-neo1.4.5-sources.jar",
           "url": "touhoulittlemaid-fabric-1.21.1-0.4.0-neo1.4.5-sources.jar",
-          "size": 20266847,
-          "sha512": "4d38cb4c2ba8d78fb534291e80ab47e4a1f16688c87b25e47910e86516f43f3ce54afcc9aa020ff1918c5f62f8a73882a76ac9631e16e36965876d9a146f387f",
-          "sha256": "506c0f50cb3b50e6b0b9b67bc4a0605c0032a7292f08e5b088ba08302732244f",
-          "sha1": "fedb70b70cadb195220dddc5ddeea6a512c680ec",
-          "md5": "e43a53c9611e632bfdbf35f7706d85c8"
+          "size": 20266855,
+          "sha512": "8f2d3f2036bec1c7cdb8cbe42a422c728f65011293a6b1d8cb2b2aa3867a1866ff77d0729c576d8878dbb2f97c63cc03304049bc8a910c550512203b0de3edac",
+          "sha256": "e7e6079a3d309fb2c475bcf1cdc714eac528927d3f0dc576e9461a812ecd3471",
+          "sha1": "07ceac72029b8117aa25ceada475b00a02a13c4f",
+          "md5": "4a243d884b34d3e5831cc7d60d1e4eed"
         }
       ]
     }
