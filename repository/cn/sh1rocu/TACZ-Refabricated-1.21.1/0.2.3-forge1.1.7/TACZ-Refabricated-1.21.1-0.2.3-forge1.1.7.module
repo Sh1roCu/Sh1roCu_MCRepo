@@ -36,11 +36,11 @@
         {
           "name": "TACZ-Refabricated-1.21.1-0.2.3-forge1.1.7.jar",
           "url": "TACZ-Refabricated-1.21.1-0.2.3-forge1.1.7.jar",
-          "size": 52655306,
-          "sha512": "e25e4783a0548022e9e18aa977c61580d42bbc4f5fac6a50558cf2bcd35df7fbf4d1d422317a60a77d1ea87f588a8aef4fc2e6c2ccfdf528a0b5442c3a1876cd",
-          "sha256": "f9c67f8d0cac3a94bece2cc5b8d12e2415c91c5a1cec1380e9eafb5cc1128c7a",
-          "sha1": "896e76c7d525ea3c931d069be864bd2ca3ff0366",
-          "md5": "f8eb1934b3fb18366e3f8686892df660"
+          "size": 52655212,
+          "sha512": "5a25d8cbd2ec7693ceee930296e1cc01edb9925f2f899637e6dc4f5de467716dd8fe54cf6431bb7e56013a6f260f6409e475751331daee7851ac098abf4bce3e",
+          "sha256": "80ee064b9694ec24f82491e1e48ee201bb1811155b149b710477669bd3d8c10b",
+          "sha1": "841c4802649aa3f096367ef67baed61ef240a868",
+          "md5": "53854fed439fb06dcbc53e10f31252f6"
         }
       ]
     },
@@ -241,11 +241,11 @@
         {
           "name": "TACZ-Refabricated-1.21.1-0.2.3-forge1.1.7.jar",
           "url": "TACZ-Refabricated-1.21.1-0.2.3-forge1.1.7.jar",
-          "size": 52655306,
-          "sha512": "e25e4783a0548022e9e18aa977c61580d42bbc4f5fac6a50558cf2bcd35df7fbf4d1d422317a60a77d1ea87f588a8aef4fc2e6c2ccfdf528a0b5442c3a1876cd",
-          "sha256": "f9c67f8d0cac3a94bece2cc5b8d12e2415c91c5a1cec1380e9eafb5cc1128c7a",
-          "sha1": "896e76c7d525ea3c931d069be864bd2ca3ff0366",
-          "md5": "f8eb1934b3fb18366e3f8686892df660"
+          "size": 52655212,
+          "sha512": "5a25d8cbd2ec7693ceee930296e1cc01edb9925f2f899637e6dc4f5de467716dd8fe54cf6431bb7e56013a6f260f6409e475751331daee7851ac098abf4bce3e",
+          "sha256": "80ee064b9694ec24f82491e1e48ee201bb1811155b149b710477669bd3d8c10b",
+          "sha1": "841c4802649aa3f096367ef67baed61ef240a868",
+          "md5": "53854fed439fb06dcbc53e10f31252f6"
         }
       ]
     },
@@ -261,11 +261,11 @@
         {
           "name": "TACZ-Refabricated-1.21.1-0.2.3-forge1.1.7-sources.jar",
           "url": "TACZ-Refabricated-1.21.1-0.2.3-forge1.1.7-sources.jar",
-          "size": 48887116,
-          "sha512": "a434a5bb5dd7b4cef2db8655bdfec8c7c3b699eae56e644d05b4f682c625897810045fca7ab57de3b783b4b8b61107fa352a8d334f98e05b2c961542fa94e304",
-          "sha256": "d875f942299f7095ff5ccd087f00eac9b9c4f60cda9fa4ab7407cc5138e6b2fc",
-          "sha1": "94b68abc8495092d61acecc056ee23b2e2d4e437",
-          "md5": "2077cc62f68d6e99099e7e35550e89df"
+          "size": 48887119,
+          "sha512": "6ad581b9e5151b00731f9bcd318432e8be67189eded38726a0f40fb971f7292911425a8cc410a6db75e4d6b2685329ac49a9365d78031c6b3f904e42a11480f1",
+          "sha256": "39f29d9925b8682b83ca14953645bbe42434769976a66ddf69680140c80d8ad1",
+          "sha1": "8289fb7a59321208311cef4688a508825156384b",
+          "md5": "7c09e8c16734689ac744e5b7b0b6d9c7"
         }
       ]
     }
