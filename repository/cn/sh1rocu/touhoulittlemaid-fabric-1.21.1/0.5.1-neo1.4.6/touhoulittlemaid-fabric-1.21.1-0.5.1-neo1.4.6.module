@@ -1,0 +1,394 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.sh1rocu",
+    "module": "touhoulittlemaid-fabric-1.21.1",
+    "version": "0.5.1-neo1.4.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "21.1.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "touhoulittlemaid-fabric-1.21.1-0.5.1-neo1.4.6.jar",
+          "url": "touhoulittlemaid-fabric-1.21.1-0.5.1-neo1.4.6.jar",
+          "size": 24697124,
+          "sha512": "1dc614eba97244c9f8c6e1d9fab2269ed2882f03dcbfedc353f79d5cfdd67f24a64a4a124822029a44ba1ce00216f2a318728d8b95176b37948f348e675bcc4c",
+          "sha256": "f6f37a3c9ca52b5b5828c2f95f70c3dbcac46dbeb1d49c79e4a09e26bc49b4bb",
+          "sha1": "519535137afb8e9a010b41043080785a4e3ee3f1",
+          "md5": "ec559a3fe0c64d079f6a9e05e4738def"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.openjdk.nashorn",
+          "module": "nashorn-core",
+          "version": {
+            "requires": "15.4"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "com.github.FiguraMC.luaj",
+          "module": "luaj-core",
+          "version": {
+            "requires": "3.0.8-figura"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.commons",
+              "module": "commons-lang3"
+            }
+          ]
+        },
+        {
+          "group": "com.github.FiguraMC.luaj",
+          "module": "luaj-jse",
+          "version": {
+            "requires": "3.0.8-figura"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.commons",
+              "module": "commons-lang3"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.bcel",
+          "module": "bcel",
+          "version": {
+            "requires": "6.6.1"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.commons",
+              "module": "commons-lang3"
+            }
+          ]
+        },
+        {
+          "group": "org.gagravarr",
+          "module": "vorbis-java-core",
+          "version": {
+            "requires": "0.8"
+          }
+        },
+        {
+          "group": "io.github.jaredmdobson",
+          "module": "concentus",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "21.1.3"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.17.2"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.4+1.21.1"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "19.22.1.316-fabric"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "15.0.128"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jade",
+          "version": {
+            "requires": "15.10.1+fabric"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "cyberanner-ironchest",
+          "version": {
+            "requires": "2.0.4"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "carry-on",
+          "version": {
+            "requires": "2.2.2-fabric"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "patchouli",
+          "version": {
+            "requires": "1.21-87-fabric"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-language-kotlin",
+          "version": {
+            "requires": "1.13.4+kotlin.2.2.0"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "libipn",
+          "version": {
+            "requires": "fabric-1.21-6.5.0"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "inventory-profiles-next",
+          "version": {
+            "requires": "fabric-1.21.1-2.1.8"
+          }
+        },
+        {
+          "group": "org.ladysnake.cardinal-components-api",
+          "module": "cardinal-components-base",
+          "version": {
+            "requires": "6.1.2"
+          }
+        },
+        {
+          "group": "org.ladysnake.cardinal-components-api",
+          "module": "cardinal-components-entity",
+          "version": {
+            "requires": "6.1.2"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.3"
+          }
+        },
+        {
+          "group": "immersive_melodies",
+          "module": "immersive_melodies-fabric",
+          "version": {
+            "requires": "0.6.2+1.21.1"
+          }
+        },
+        {
+          "group": "net.createmod.ponder",
+          "module": "Ponder-Fabric-1.21.1",
+          "version": {
+            "requires": "1.0.61"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "improved-mobs",
+          "version": {
+            "requires": "1.21.1-1.14.2-fabric"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "tenshilib",
+          "version": {
+            "requires": "1.21.1-2.1.1-fabric"
+          }
+        },
+        {
+          "group": "libs",
+          "module": "TACZ-Refabricated",
+          "version": {
+            "requires": "1.21.1-0.0.7"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "nonconflictkeys-fabric-865546",
+          "version": {
+            "requires": "4572953"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "patpat",
+          "version": {
+            "requires": "1.2.1+1.21.1"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "proxlib",
+          "version": {
+            "requires": "0.2.4+1.21"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "fabric-permissions-api",
+          "version": {
+            "requires": "0.3.1"
+          }
+        },
+        {
+          "group": "cn.sh1rocu",
+          "module": "slashblade-refabricated",
+          "version": {
+            "requires": "1.21.1-1.0.1-Resharped-1.7.55"
+          }
+        },
+        {
+          "group": "io.github.cottonmc",
+          "module": "LibGui",
+          "version": {
+            "requires": "11.1.0+1.21"
+          }
+        },
+        {
+          "group": "me.zeroeightsix",
+          "module": "fiber",
+          "version": {
+            "requires": "0.23.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "xaeros-minimap",
+          "version": {
+            "requires": "25.2.10_Fabric_1.21"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "xaeros-world-map",
+          "version": {
+            "requires": "1.39.12_Fabric_1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "touhoulittlemaid-fabric-1.21.1-0.5.1-neo1.4.6.jar",
+          "url": "touhoulittlemaid-fabric-1.21.1-0.5.1-neo1.4.6.jar",
+          "size": 24697124,
+          "sha512": "1dc614eba97244c9f8c6e1d9fab2269ed2882f03dcbfedc353f79d5cfdd67f24a64a4a124822029a44ba1ce00216f2a318728d8b95176b37948f348e675bcc4c",
+          "sha256": "f6f37a3c9ca52b5b5828c2f95f70c3dbcac46dbeb1d49c79e4a09e26bc49b4bb",
+          "sha1": "519535137afb8e9a010b41043080785a4e3ee3f1",
+          "md5": "ec559a3fe0c64d079f6a9e05e4738def"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "touhoulittlemaid-fabric-1.21.1-0.5.1-neo1.4.6-shadow.jar",
+          "url": "touhoulittlemaid-fabric-1.21.1-0.5.1-neo1.4.6-shadow.jar",
+          "size": 22505679,
+          "sha512": "ada247f56fc4f892065369362fe07917325a4f09e02dc4d98e3bf5e6af856d8269894a8a3dcc40443ca1eaeff4001602b9f80024354cd62af894aecbc0f08cae",
+          "sha256": "fcddfb35a0d7e10c163734a7796dc208fcf79e21733d7f17476291f7c2253295",
+          "sha1": "7b03a8ecb6c63f619bb08d94fe006f2dea1a8b10",
+          "md5": "1b137f7f1a227863f5c7b38f189731bb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "touhoulittlemaid-fabric-1.21.1-0.5.1-neo1.4.6-sources.jar",
+          "url": "touhoulittlemaid-fabric-1.21.1-0.5.1-neo1.4.6-sources.jar",
+          "size": 20362192,
+          "sha512": "347f3e8401886f51b45493404dbf119835bc881358969308f114650df2e61840ddf7f129810271e85a1d5d6840c10df254bf9623bb6e102f73920383b47e5679",
+          "sha256": "faa755ca910dc87fc974670fe1c78ced30f7f785f9f653051399a85ab4d4d75b",
+          "sha1": "09f23d9c65df1824846cb1e462cba316e5f7cd6d",
+          "md5": "3659b0e21ea583b9047c973e1fd3f8c6"
+        }
+      ]
+    }
+  ]
+}
