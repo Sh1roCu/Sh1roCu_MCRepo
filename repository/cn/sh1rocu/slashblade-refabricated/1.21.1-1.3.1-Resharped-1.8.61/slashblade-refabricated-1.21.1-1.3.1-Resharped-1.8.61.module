@@ -1,0 +1,196 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.sh1rocu",
+    "module": "slashblade-refabricated",
+    "version": "1.21.1-1.3.1-Resharped-1.8.61",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "21.1.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "slashblade-refabricated-1.21.1-1.3.1-Resharped-1.8.61.jar",
+          "url": "slashblade-refabricated-1.21.1-1.3.1-Resharped-1.8.61.jar",
+          "size": 6418181,
+          "sha512": "198f296b31bd7b080950f2dc2ff1eb0e7f223d062b2b74bf5650a473c873a724516f94cfd3d19748cf9bc5c8419de7a696c5b8b54d393e6afa581c8badb53db6",
+          "sha256": "be3bc329398150cb5a347997fcf378d4549933ac4c97edd6bb7a1f5904e177b6",
+          "sha1": "c78dc2deda926cf7485ce29677fd034783ce177a",
+          "md5": "a290f3522fe72f34051dfc8596f7fbb4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "21.1.3"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.17.2"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.7+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "obj_loader",
+          "version": {
+            "requires": "3.1.0-beta.79+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "items",
+          "version": {
+            "requires": "3.1.0-beta.79+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "entity",
+          "version": {
+            "requires": "3.1.0-beta.79+1.21.1"
+          }
+        },
+        {
+          "group": "org.ladysnake.cardinal-components-api",
+          "module": "cardinal-components-base",
+          "version": {
+            "requires": "6.1.2"
+          }
+        },
+        {
+          "group": "org.ladysnake.cardinal-components-api",
+          "module": "cardinal-components-entity",
+          "version": {
+            "requires": "6.1.2"
+          }
+        },
+        {
+          "group": "dev.kosmx.player-anim",
+          "module": "player-animation-lib-fabric",
+          "version": {
+            "requires": "2.0.1+1.21.1"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "accrelatedrendering-refabricated",
+          "version": {
+            "requires": "1.0.5-1.21.1-fabric.1"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "selene-499980",
+          "version": {
+            "requires": "7068423"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "mmmmmmmmmmmm-225738",
+          "version": {
+            "requires": "6826532"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-fabric",
+          "version": {
+            "requires": "19.22.1.316"
+          }
+        },
+        {
+          "group": "vazkii.patchouli",
+          "module": "Patchouli",
+          "version": {
+            "requires": "1.21-87-FABRIC"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "nbtedit-reborn-678133",
+          "version": {
+            "requires": "6125442"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "slashblade-refabricated-1.21.1-1.3.1-Resharped-1.8.61.jar",
+          "url": "slashblade-refabricated-1.21.1-1.3.1-Resharped-1.8.61.jar",
+          "size": 6418181,
+          "sha512": "198f296b31bd7b080950f2dc2ff1eb0e7f223d062b2b74bf5650a473c873a724516f94cfd3d19748cf9bc5c8419de7a696c5b8b54d393e6afa581c8badb53db6",
+          "sha256": "be3bc329398150cb5a347997fcf378d4549933ac4c97edd6bb7a1f5904e177b6",
+          "sha1": "c78dc2deda926cf7485ce29677fd034783ce177a",
+          "md5": "a290f3522fe72f34051dfc8596f7fbb4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "slashblade-refabricated-1.21.1-1.3.1-Resharped-1.8.61-sources.jar",
+          "url": "slashblade-refabricated-1.21.1-1.3.1-Resharped-1.8.61-sources.jar",
+          "size": 3556349,
+          "sha512": "b15c4e7f362b91562689834b7f626efb80ea162563f7ec0b86f79b7c6ba7fca924f77f5eef54952071a225f0115ef3db9de66713cd5e59d791dadbc4bad30ec8",
+          "sha256": "b579548e87a923ca430eee79408fdafa0853fae90a4b8a2acc890e6fb9a08047",
+          "sha1": "dc697d6885730ae8e36afafc4be24f599a80907d",
+          "md5": "5a41fc3ad2b869007fd0dfa7f18ea506"
+        }
+      ]
+    }
+  ]
+}
