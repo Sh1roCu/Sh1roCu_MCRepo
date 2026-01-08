@@ -1,0 +1,547 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fabricators_of_create.Porting-Lib",
+    "module": "all",
+    "version": "3.1.0-beta.79-fix+1.21.1-fix",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "attributes",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "base",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "blocks",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "brewing",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "chunk_loading",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "client_events",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "client_extensions",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "common",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "config",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "core",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "data",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "entity",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "entity_data_serializers",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "fluids",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "gametest",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "gui_utils",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "item_abilities",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "items",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "level_events",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "loot",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "milk",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "mixin_extensions",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "model_data",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "model_loader",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "models",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "obj_loader",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "recipe_book_categories",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "registry",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "render_types",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "resources",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "tags",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "transfer",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "all-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "url": "all-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "size": 4513130,
+          "sha512": "113e17d1d37ff9e326828e337bc8b6dddff4a9d1b45deb2b70ad70f7ea335b1b3ac1040fae721bd2536eb06681a6fa8f98c6a574383d153ad4f2892df8949d68",
+          "sha256": "454746a52acb350aba2027c2b219ddcc35c7c0043cb5fb0d43941683dc806c44",
+          "sha1": "72381cfc51361c78dd4d822918cceea774313cfe",
+          "md5": "0176714a0926806e5f4fdbd24e676054"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-fabric",
+          "version": {
+            "requires": "0.5.0-rc.2"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "attributes",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "base",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "blocks",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "brewing",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "chunk_loading",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "client_events",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "client_extensions",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "common",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "config",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "core",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "data",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "entity",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "entity_data_serializers",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "fluids",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "gametest",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "gui_utils",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "item_abilities",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "items",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "level_events",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "loot",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "milk",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "mixin_extensions",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "model_data",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "model_loader",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "models",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "obj_loader",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "recipe_book_categories",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "registry",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "render_types",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "resources",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "tags",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "transfer",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.7"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.1+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "all-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "url": "all-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "size": 4513130,
+          "sha512": "113e17d1d37ff9e326828e337bc8b6dddff4a9d1b45deb2b70ad70f7ea335b1b3ac1040fae721bd2536eb06681a6fa8f98c6a574383d153ad4f2892df8949d68",
+          "sha256": "454746a52acb350aba2027c2b219ddcc35c7c0043cb5fb0d43941683dc806c44",
+          "sha1": "72381cfc51361c78dd4d822918cceea774313cfe",
+          "md5": "0176714a0926806e5f4fdbd24e676054"
+        }
+      ]
+    }
+  ]
+}

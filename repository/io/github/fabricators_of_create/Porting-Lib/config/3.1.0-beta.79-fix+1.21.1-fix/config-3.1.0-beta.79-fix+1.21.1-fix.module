@@ -1,0 +1,161 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fabricators_of_create.Porting-Lib",
+    "module": "config",
+    "version": "3.1.0-beta.79-fix+1.21.1-fix",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "core",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.8.0"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "core",
+          "version": {
+            "requires": "3.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "config-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "url": "config-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "size": 1180533,
+          "sha512": "153f9ae04f45a9731aca35f2296577c13ba1de1423b74876416e072618d20d2c52108df4fa5fced72db23d80a8942dffdc7b2926da53ceb3ef4c9fb0a477256b",
+          "sha256": "3bac1478455645e867091c7426183745c5209745407bb9296e512b2630f7cd1c",
+          "sha1": "4992dd2589ed50c604197c05ae37fe69672b3cf9",
+          "md5": "f26bb6074ba3cbb76e9df90a76772426"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-fabric",
+          "version": {
+            "requires": "0.5.0-rc.2"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "core",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.8.0"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "core",
+          "version": {
+            "requires": "3.8.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.7"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.1+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "config-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "url": "config-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "size": 1180533,
+          "sha512": "153f9ae04f45a9731aca35f2296577c13ba1de1423b74876416e072618d20d2c52108df4fa5fced72db23d80a8942dffdc7b2926da53ceb3ef4c9fb0a477256b",
+          "sha256": "3bac1478455645e867091c7426183745c5209745407bb9296e512b2630f7cd1c",
+          "sha1": "4992dd2589ed50c604197c05ae37fe69672b3cf9",
+          "md5": "f26bb6074ba3cbb76e9df90a76772426"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "config-3.1.0-beta.79-fix+1.21.1-fix-sources.jar",
+          "url": "config-3.1.0-beta.79-fix+1.21.1-fix-sources.jar",
+          "size": 53195,
+          "sha512": "d233d131ac06ba09c38e0b3f680486d0967c40b0001e85498c06bb05d9d0e913f9ed22cda8dd3eaf91620882c2225964f58f351a95d7ccc5d24f8b7e41e0e3cb",
+          "sha256": "1e3767d9b4bc91558295cd6bee839cab7a18cd1f592f23ea9a2f6c973a3c0540",
+          "sha1": "a2a5c0da090578c9133934f236c2f4721f5e6582",
+          "md5": "ea93ebf96785262bd2bf85fc5cbea792"
+        }
+      ]
+    }
+  ]
+}

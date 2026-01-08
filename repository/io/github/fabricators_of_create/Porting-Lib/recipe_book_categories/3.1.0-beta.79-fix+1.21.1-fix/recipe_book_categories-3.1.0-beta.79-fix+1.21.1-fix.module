@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fabricators_of_create.Porting-Lib",
+    "module": "recipe_book_categories",
+    "version": "3.1.0-beta.79-fix+1.21.1-fix",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "core",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "recipe_book_categories-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "url": "recipe_book_categories-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "size": 682458,
+          "sha512": "9f2e8942a9bbf91d8d9b30547f9f9cca1d42ef4076665423d0cbdc8dbcf056f3e98544ca3c6dbe546fd010d74f5fb31e030a9e807506b806cd911e27f900514e",
+          "sha256": "6d77a3d6af898bd047000d41fcff9dde6a56ff50f6ff01d256a9bea5b5236e4b",
+          "sha1": "ca67d0c903127760a95c27cc545b1b3dd331714f",
+          "md5": "fcb43db5ef3a6aa8d780fea43b04b990"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-fabric",
+          "version": {
+            "requires": "0.5.0-rc.2"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "core",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.7"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.1+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "recipe_book_categories-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "url": "recipe_book_categories-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "size": 682458,
+          "sha512": "9f2e8942a9bbf91d8d9b30547f9f9cca1d42ef4076665423d0cbdc8dbcf056f3e98544ca3c6dbe546fd010d74f5fb31e030a9e807506b806cd911e27f900514e",
+          "sha256": "6d77a3d6af898bd047000d41fcff9dde6a56ff50f6ff01d256a9bea5b5236e4b",
+          "sha1": "ca67d0c903127760a95c27cc545b1b3dd331714f",
+          "md5": "fcb43db5ef3a6aa8d780fea43b04b990"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "recipe_book_categories-3.1.0-beta.79-fix+1.21.1-fix-sources.jar",
+          "url": "recipe_book_categories-3.1.0-beta.79-fix+1.21.1-fix-sources.jar",
+          "size": 5863,
+          "sha512": "fe6687b1cc73a429576b23f45895fc9b9e57031863c3885806670252de7fd89a8e77cd78a78a7564b11e43f3986286069a006a91106864a9f3d2fe2828318bb8",
+          "sha256": "b8fa93e2f58f2e1f4e2255113ae0d231aa5213bdbd3dce8f3d4bf62b8b85fc48",
+          "sha1": "81aed3631de94c851b2ba188309ceff5df35a242",
+          "md5": "e5c5fd24426aa3904d7f86113fe9823d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fabricators_of_create.Porting-Lib",
+    "module": "transfer",
+    "version": "3.1.0-beta.79-fix+1.21.1-fix",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "core",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "fluids",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "transfer-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "url": "transfer-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "size": 775504,
+          "sha512": "aff9f7ea6e74986ad7e0d5a0a885c693d5d71d0a1a60e9a1965b40e4e88cd54d8628fa96d1f2dfbc4694304e6e85b89d8819df57539bccffbbc33fb486042f4d",
+          "sha256": "928f1e9f289938a3e5c194789940edbfac2b034e264a9454c0bb279472f9bc54",
+          "sha1": "28ca0fc011b8ffc973b9d0798eb7bf8ad30444f2",
+          "md5": "525b9f4f12683d9186533a49d4c41768"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-fabric",
+          "version": {
+            "requires": "0.5.0-rc.2"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "core",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "fluids",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.7"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.1+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "transfer-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "url": "transfer-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "size": 775504,
+          "sha512": "aff9f7ea6e74986ad7e0d5a0a885c693d5d71d0a1a60e9a1965b40e4e88cd54d8628fa96d1f2dfbc4694304e6e85b89d8819df57539bccffbbc33fb486042f4d",
+          "sha256": "928f1e9f289938a3e5c194789940edbfac2b034e264a9454c0bb279472f9bc54",
+          "sha1": "28ca0fc011b8ffc973b9d0798eb7bf8ad30444f2",
+          "md5": "525b9f4f12683d9186533a49d4c41768"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "transfer-3.1.0-beta.79-fix+1.21.1-fix-sources.jar",
+          "url": "transfer-3.1.0-beta.79-fix+1.21.1-fix-sources.jar",
+          "size": 65601,
+          "sha512": "3ba95098ddda912c412086dc41361d210ebe7e9002b80fea5e42e9a6f48210f8e10fe87c252f8696bc914cb7813d345c99460d6884d0cfa44acdef2e5f37a4b9",
+          "sha256": "16ba52360186825ec43735ac4423249034b4146809d41d3d5688d214fee1c457",
+          "sha1": "fab50e6461a42a2614f89babe06aad0c0594c955",
+          "md5": "df994b516ef8fc98f16e0066d70aef86"
+        }
+      ]
+    }
+  ]
+}

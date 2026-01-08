@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fabricators_of_create.Porting-Lib",
+    "module": "obj_loader",
+    "version": "3.1.0-beta.79-fix+1.21.1-fix",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "core",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "model_loader",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "obj_loader-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "url": "obj_loader-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "size": 710116,
+          "sha512": "176e513c588330384b404a2bf135829f1f2896842c7f7d9bcfc40dc4f40c13e564e490c42f74f80bc12d06845854fd324b109edae67a94f4376873d4cc82e148",
+          "sha256": "d334deed124db7d406d6a30b83e15a769733af8e86da9dbadd145e3dbff9bfb1",
+          "sha1": "46303c67090a17afeedf580ccc1932ee907c9510",
+          "md5": "d1428a18019923d802b374f5f7983a81"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-fabric",
+          "version": {
+            "requires": "0.5.0-rc.2"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "core",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "model_loader",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.7"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.1+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "obj_loader-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "url": "obj_loader-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "size": 710116,
+          "sha512": "176e513c588330384b404a2bf135829f1f2896842c7f7d9bcfc40dc4f40c13e564e490c42f74f80bc12d06845854fd324b109edae67a94f4376873d4cc82e148",
+          "sha256": "d334deed124db7d406d6a30b83e15a769733af8e86da9dbadd145e3dbff9bfb1",
+          "sha1": "46303c67090a17afeedf580ccc1932ee907c9510",
+          "md5": "d1428a18019923d802b374f5f7983a81"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "obj_loader-3.1.0-beta.79-fix+1.21.1-fix-sources.jar",
+          "url": "obj_loader-3.1.0-beta.79-fix+1.21.1-fix-sources.jar",
+          "size": 14139,
+          "sha512": "3b3f4ab4a1c1bf9db6e86073bab3791fafc7ee49230490b299e3fe8b2e6a1b767dd9af2bd7477a9a1b3784be9bc78a6394c1fa04560c394b0ec929917738088b",
+          "sha256": "b82e03f6f4e451feb6e9ecac96f318121b37044f7ac392578504138e54e5eb74",
+          "sha1": "d2293d72972a6d18ca7c8a01a289d8c16fe11643",
+          "md5": "a5e185e68d623d58b8ad9edec05ca6ef"
+        }
+      ]
+    }
+  ]
+}

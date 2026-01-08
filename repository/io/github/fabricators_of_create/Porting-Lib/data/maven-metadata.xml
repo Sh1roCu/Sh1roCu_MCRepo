@@ -3,11 +3,11 @@
   <groupId>io.github.fabricators_of_create.Porting-Lib</groupId>
   <artifactId>data</artifactId>
   <versioning>
-    <latest>3.1.0-beta.79-fix+1.21.1</latest>
-    <release>3.1.0-beta.79-fix+1.21.1</release>
+    <latest>3.1.0-beta.79-fix+1.21.1-fix</latest>
+    <release>3.1.0-beta.79-fix+1.21.1-fix</release>
     <versions>
-      <version>3.1.0-beta.79-fix+1.21.1</version>
+      <version>3.1.0-beta.79-fix+1.21.1-fix</version>
     </versions>
-    <lastUpdated>20260108055257</lastUpdated>
+    <lastUpdated>20260108062638</lastUpdated>
   </versioning>
 </metadata>

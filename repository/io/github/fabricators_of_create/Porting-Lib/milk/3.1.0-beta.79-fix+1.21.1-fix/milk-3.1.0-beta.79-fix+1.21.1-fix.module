@@ -1,0 +1,161 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fabricators_of_create.Porting-Lib",
+    "module": "milk",
+    "version": "3.1.0-beta.79-fix+1.21.1-fix",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "core",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "data",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "fluids",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "milk-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "url": "milk-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "size": 692956,
+          "sha512": "e44d64bbc5b8d5e667b1359c32ae2bff35894f0b3eb09ef961cef55eec24bbfc023db6fd1242f5a6027b9035d96aeb5e7e174dc0420c5aa1b20bf18815c17de2",
+          "sha256": "4222214e4b5a837b57f54dc75d9994f7edc1d06380abea60dd32c8b0abc9a58a",
+          "sha1": "b366d6ddefba5c747ab8bc2888b42dcb35c71ceb",
+          "md5": "880ef6930e0790e03df0a75c997147c6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-fabric",
+          "version": {
+            "requires": "0.5.0-rc.2"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "core",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "data",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "fluids",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.7"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.1+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "milk-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "url": "milk-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "size": 692956,
+          "sha512": "e44d64bbc5b8d5e667b1359c32ae2bff35894f0b3eb09ef961cef55eec24bbfc023db6fd1242f5a6027b9035d96aeb5e7e174dc0420c5aa1b20bf18815c17de2",
+          "sha256": "4222214e4b5a837b57f54dc75d9994f7edc1d06380abea60dd32c8b0abc9a58a",
+          "sha1": "b366d6ddefba5c747ab8bc2888b42dcb35c71ceb",
+          "md5": "880ef6930e0790e03df0a75c997147c6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "milk-3.1.0-beta.79-fix+1.21.1-fix-sources.jar",
+          "url": "milk-3.1.0-beta.79-fix+1.21.1-fix-sources.jar",
+          "size": 16155,
+          "sha512": "71512d5f47fc9cc4e5ec2f6afb5ab14495eee427d1e6b7bef46206c07ff273195ab1cf3fb9b535c79b8b239102e535330b3c74515c8ba0dc180d9278964b02c6",
+          "sha256": "221f3f8ba384ff5e1569870dd7343e82489a670349df6362f4412a9682bf75a5",
+          "sha1": "73327b685df18b8f23cd94a7d2ffe8d7d95c8489",
+          "md5": "4b2876886f923dc6aa0fa379c7a8dbe2"
+        }
+      ]
+    }
+  ]
+}

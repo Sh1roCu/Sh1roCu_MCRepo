@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fabricators_of_create.Porting-Lib",
+    "module": "fluids",
+    "version": "3.1.0-beta.79-fix+1.21.1-fix",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "core",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluids-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "url": "fluids-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "size": 731942,
+          "sha512": "c727b487a12a9e24e3f68a9683abd72af805acc360e38c387a58bd97c556401315e9f98fb46a036f790854e455fc5ac2922847b8ac5650ad6ed44b34d1b4a8ff",
+          "sha256": "9b51efefc5dd1b571d48b117fc78e705e9621b2bc17fbad077777458e680bc35",
+          "sha1": "587fce0470a78d4b4b5ad1e303d454fc03e7eecf",
+          "md5": "49340123910d5ecdd2fb5c650cc0f293"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-fabric",
+          "version": {
+            "requires": "0.5.0-rc.2"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "core",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.7"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.1+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluids-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "url": "fluids-3.1.0-beta.79-fix+1.21.1-fix.jar",
+          "size": 731942,
+          "sha512": "c727b487a12a9e24e3f68a9683abd72af805acc360e38c387a58bd97c556401315e9f98fb46a036f790854e455fc5ac2922847b8ac5650ad6ed44b34d1b4a8ff",
+          "sha256": "9b51efefc5dd1b571d48b117fc78e705e9621b2bc17fbad077777458e680bc35",
+          "sha1": "587fce0470a78d4b4b5ad1e303d454fc03e7eecf",
+          "md5": "49340123910d5ecdd2fb5c650cc0f293"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fluids-3.1.0-beta.79-fix+1.21.1-fix-sources.jar",
+          "url": "fluids-3.1.0-beta.79-fix+1.21.1-fix-sources.jar",
+          "size": 32543,
+          "sha512": "a69e459616612c6b46afe7337e020384669fbbd5f87d31fda46247f68e49941900cac80e50e3c52cf3e31e82957863a5213504c433680ec0e9061c3795c250da",
+          "sha256": "84a4754cda0c33b67be58cff166dad72e763bc48f15bade287dfe79334429cfd",
+          "sha1": "603bbfd6ceaa50ffcd56994389c6f18fcf174a84",
+          "md5": "58c08c4a1094dbe067fd57a328720ae5"
+        }
+      ]
+    }
+  ]
+}
