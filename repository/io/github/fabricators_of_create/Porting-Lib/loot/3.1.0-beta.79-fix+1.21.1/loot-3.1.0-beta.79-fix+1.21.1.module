@@ -1,0 +1,161 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fabricators_of_create.Porting-Lib",
+    "module": "loot",
+    "version": "3.1.0-beta.79-fix+1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "core",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "registry",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "resources",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "loot-3.1.0-beta.79-fix+1.21.1.jar",
+          "url": "loot-3.1.0-beta.79-fix+1.21.1.jar",
+          "size": 707651,
+          "sha512": "92dc7a23e19d661f959b529f94ae2f371e3c7c9aff20f175e2ba559bc658deb27331bf7dce017ecd062617f3527f396418253cc359158a8c39605ec905f71fcf",
+          "sha256": "a8b4784ebf1c5c69dcd265448519f0ad00fc6ba6fd48b0737b27d314ffa439b6",
+          "sha1": "282b41b378852305b01ba72ff5a786d235a24a08",
+          "md5": "b227848e984c5e723f9a11216f1a6f8e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-fabric",
+          "version": {
+            "requires": "0.5.0-rc.2"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "core",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "registry",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "resources",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.7"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.1+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "loot-3.1.0-beta.79-fix+1.21.1.jar",
+          "url": "loot-3.1.0-beta.79-fix+1.21.1.jar",
+          "size": 707651,
+          "sha512": "92dc7a23e19d661f959b529f94ae2f371e3c7c9aff20f175e2ba559bc658deb27331bf7dce017ecd062617f3527f396418253cc359158a8c39605ec905f71fcf",
+          "sha256": "a8b4784ebf1c5c69dcd265448519f0ad00fc6ba6fd48b0737b27d314ffa439b6",
+          "sha1": "282b41b378852305b01ba72ff5a786d235a24a08",
+          "md5": "b227848e984c5e723f9a11216f1a6f8e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "loot-3.1.0-beta.79-fix+1.21.1-sources.jar",
+          "url": "loot-3.1.0-beta.79-fix+1.21.1-sources.jar",
+          "size": 19559,
+          "sha512": "62722a7c20b10d94804562077dabf1e51884348b23b345a3ff0f5a3799c71b0369f6038a6303fd2e997f6b082aeb353b78a2440b1661dfc0408b3b1419048ae7",
+          "sha256": "84db45911ed7cf1f34f007df158614920fb898755ca3424e7d91ecdea91fcbc3",
+          "sha1": "5af99b07c8fd9c6a0b938bbbcd3d0f08f04b698d",
+          "md5": "efdbcc36ab59eccc26b0ca75c7b90827"
+        }
+      ]
+    }
+  ]
+}

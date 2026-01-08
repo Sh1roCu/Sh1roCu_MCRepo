@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fabricators_of_create.Porting-Lib",
+    "module": "entity_data_serializers",
+    "version": "3.1.0-beta.79-fix+1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "core",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "entity_data_serializers-3.1.0-beta.79-fix+1.21.1.jar",
+          "url": "entity_data_serializers-3.1.0-beta.79-fix+1.21.1.jar",
+          "size": 680742,
+          "sha512": "b39e3b99958b3df8d3e900e1a3c6096c4f73abeaeddc6c98df5a03bd53dd2c8a7da022fa7874f54a49a207474635dff88e25bc950a73c3403c48aad651ee04fa",
+          "sha256": "fb2434c6fd435061c980006481189d5ebcec400d53dbc067f9c47bc2c5a46ceb",
+          "sha1": "af32e6005a6b73dd2dceefad63166b189afb2815",
+          "md5": "361a948784af50c1aa1677e8e9a5d366"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-fabric",
+          "version": {
+            "requires": "0.5.0-rc.2"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "core",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.7"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.1+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "entity_data_serializers-3.1.0-beta.79-fix+1.21.1.jar",
+          "url": "entity_data_serializers-3.1.0-beta.79-fix+1.21.1.jar",
+          "size": 680742,
+          "sha512": "b39e3b99958b3df8d3e900e1a3c6096c4f73abeaeddc6c98df5a03bd53dd2c8a7da022fa7874f54a49a207474635dff88e25bc950a73c3403c48aad651ee04fa",
+          "sha256": "fb2434c6fd435061c980006481189d5ebcec400d53dbc067f9c47bc2c5a46ceb",
+          "sha1": "af32e6005a6b73dd2dceefad63166b189afb2815",
+          "md5": "361a948784af50c1aa1677e8e9a5d366"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "entity_data_serializers-3.1.0-beta.79-fix+1.21.1-sources.jar",
+          "url": "entity_data_serializers-3.1.0-beta.79-fix+1.21.1-sources.jar",
+          "size": 4883,
+          "sha512": "7585a4516bf16081a056444b8a25f5d9d96af3668485d5129cec3005f63ece322624622b94e273f991ab6ede50d8de6ea208cedeb234f145871e11c0ac482d31",
+          "sha256": "24531d82d21c66240a404ef29ffb7bf64c4171da038ea923c87cac5ce3fff479",
+          "sha1": "cd70718013e5c6c05ef5f8a5fcc7035aa04da993",
+          "md5": "68614348789afc69079a56eeb382fe61"
+        }
+      ]
+    }
+  ]
+}

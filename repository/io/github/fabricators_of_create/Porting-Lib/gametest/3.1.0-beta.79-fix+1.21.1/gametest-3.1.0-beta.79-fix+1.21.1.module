@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fabricators_of_create.Porting-Lib",
+    "module": "gametest",
+    "version": "3.1.0-beta.79-fix+1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "gametest-3.1.0-beta.79-fix+1.21.1.jar",
+          "url": "gametest-3.1.0-beta.79-fix+1.21.1.jar",
+          "size": 722321,
+          "sha512": "3d22c6b057a1275f6b45caebeb71e27fe5c3b73385dd600628950ea438f89a7e56a14ff4f36c200e9a00dc19cbda2acc05ec5768d1d972238f87ae63ef059967",
+          "sha256": "2686d8fc371dceb409f27b7ec4d9611115646c68fda58405125a706bc8dab942",
+          "sha1": "d5211d0f600cec43aff0e5309b2231fdd61fded2",
+          "md5": "e4054270fa6c187543347c66d6459526"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-fabric",
+          "version": {
+            "requires": "0.5.0-rc.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.7"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.1+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gametest-3.1.0-beta.79-fix+1.21.1.jar",
+          "url": "gametest-3.1.0-beta.79-fix+1.21.1.jar",
+          "size": 722321,
+          "sha512": "3d22c6b057a1275f6b45caebeb71e27fe5c3b73385dd600628950ea438f89a7e56a14ff4f36c200e9a00dc19cbda2acc05ec5768d1d972238f87ae63ef059967",
+          "sha256": "2686d8fc371dceb409f27b7ec4d9611115646c68fda58405125a706bc8dab942",
+          "sha1": "d5211d0f600cec43aff0e5309b2231fdd61fded2",
+          "md5": "e4054270fa6c187543347c66d6459526"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gametest-3.1.0-beta.79-fix+1.21.1-sources.jar",
+          "url": "gametest-3.1.0-beta.79-fix+1.21.1-sources.jar",
+          "size": 31301,
+          "sha512": "e663d47109216b27a0564643109a99b0a1e80a71e19a9dbaea9f3f8cb027c78a833eddce16bf715e7b6e455dc7c9c25c2287fbe4d0d2d64e31eadb0a0672dee3",
+          "sha256": "3e6c56ecfd622967cd17735c349a550df4105b04da7312e3686fee935b2241db",
+          "sha1": "751cb623e8df62da0f121db0e3fd088464b411f9",
+          "md5": "39e57a593933c9d9866ed83c2d6cb2da"
+        }
+      ]
+    }
+  ]
+}
