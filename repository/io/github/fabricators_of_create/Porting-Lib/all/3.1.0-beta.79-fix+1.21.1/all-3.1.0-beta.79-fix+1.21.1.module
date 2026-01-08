@@ -2,7 +2,7 @@
   "formatVersion": "1.1",
   "component": {
     "group": "io.github.fabricators_of_create.Porting-Lib",
-    "module": "Porting-Lib",
+    "module": "all",
     "version": "3.1.0-beta.79-fix+1.21.1",
     "attributes": {
       "org.gradle.status": "release"
@@ -251,13 +251,13 @@
       ],
       "files": [
         {
-          "name": "Porting-Lib-3.1.0-beta.79-fix+1.21.1.jar",
-          "url": "Porting-Lib-3.1.0-beta.79-fix+1.21.1.jar",
+          "name": "all-3.1.0-beta.79-fix+1.21.1.jar",
+          "url": "all-3.1.0-beta.79-fix+1.21.1.jar",
           "size": 4512822,
-          "sha512": "a7ce3c11a79059b3194a8a66a827edb7ba43970b29d592baa892803a924cb5356f69cbefa2cdb79ec896dfeb13af09464c1eeff801c9391c127ecf4e1c7bd5bd",
-          "sha256": "d5dc8fc18d6b21024e483dae7c8ffb596f4f7f2f2c40711ffb280b450c1e3bf7",
-          "sha1": "77de6c74a91aab893296652af7269138172eedf6",
-          "md5": "faa2fc2b7cd42cf90f7de06ae38498f1"
+          "sha512": "c178eb214e0df51877f48ddb53eea3efaef02a723aa4c874715b0f43838740dfa156b2f5087a763a97172587e7c144fe74ff3cff868cd7987d83218924928412",
+          "sha256": "7c14ce4608a244383d8dc09165774d8996ae852e56aa95f1303b83d259aa5cac",
+          "sha1": "076b5ed7291c3ddcda1e1667efb819aed8121082",
+          "md5": "9f337419614cf8bdeb70ed8f6d60aca4"
         }
       ]
     },
@@ -533,13 +533,13 @@
       ],
       "files": [
         {
-          "name": "Porting-Lib-3.1.0-beta.79-fix+1.21.1.jar",
-          "url": "Porting-Lib-3.1.0-beta.79-fix+1.21.1.jar",
+          "name": "all-3.1.0-beta.79-fix+1.21.1.jar",
+          "url": "all-3.1.0-beta.79-fix+1.21.1.jar",
           "size": 4512822,
-          "sha512": "a7ce3c11a79059b3194a8a66a827edb7ba43970b29d592baa892803a924cb5356f69cbefa2cdb79ec896dfeb13af09464c1eeff801c9391c127ecf4e1c7bd5bd",
-          "sha256": "d5dc8fc18d6b21024e483dae7c8ffb596f4f7f2f2c40711ffb280b450c1e3bf7",
-          "sha1": "77de6c74a91aab893296652af7269138172eedf6",
-          "md5": "faa2fc2b7cd42cf90f7de06ae38498f1"
+          "sha512": "c178eb214e0df51877f48ddb53eea3efaef02a723aa4c874715b0f43838740dfa156b2f5087a763a97172587e7c144fe74ff3cff868cd7987d83218924928412",
+          "sha256": "7c14ce4608a244383d8dc09165774d8996ae852e56aa95f1303b83d259aa5cac",
+          "sha1": "076b5ed7291c3ddcda1e1667efb819aed8121082",
+          "md5": "9f337419614cf8bdeb70ed8f6d60aca4"
         }
       ]
     }

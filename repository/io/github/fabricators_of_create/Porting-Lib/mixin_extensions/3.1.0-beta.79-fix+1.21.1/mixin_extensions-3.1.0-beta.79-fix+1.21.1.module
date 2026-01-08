@@ -37,10 +37,10 @@
           "name": "mixin_extensions-3.1.0-beta.79-fix+1.21.1.jar",
           "url": "mixin_extensions-3.1.0-beta.79-fix+1.21.1.jar",
           "size": 688555,
-          "sha512": "7f8cf3f053a02a15eb6e63fcccf981680f36db8c2700f026a5ea8888d4b6bb28be6190465f5ed09b51a283fb11df1407cb4316be96ef5280318341042888cfd2",
-          "sha256": "ee7fd8c1dc2332d5f86a6113f9f47fbc908f5858ba1edb8ea1d34727ae23b7db",
-          "sha1": "a7613df3af6f8d3f02e1496a1eced35a408a403a",
-          "md5": "774607739619362e68d5ea95e848e1c0"
+          "sha512": "6f33c5f59631734f00997b67215a0a3eae85764363a04696d80512ac167c4175d272b07f7db13713f88b852d1b3a617596317f425212d2e9b7699943c60cd799",
+          "sha256": "ebd8f9bc2179ea14aab3e6163b1c345035ca493e764585a18ec9878048d38d88",
+          "sha1": "054a2b4335f7261affc006af815e5855d7c5d78e",
+          "md5": "db033e006af29c3fe348045889811487"
         }
       ]
     },
@@ -102,10 +102,10 @@
           "name": "mixin_extensions-3.1.0-beta.79-fix+1.21.1.jar",
           "url": "mixin_extensions-3.1.0-beta.79-fix+1.21.1.jar",
           "size": 688555,
-          "sha512": "7f8cf3f053a02a15eb6e63fcccf981680f36db8c2700f026a5ea8888d4b6bb28be6190465f5ed09b51a283fb11df1407cb4316be96ef5280318341042888cfd2",
-          "sha256": "ee7fd8c1dc2332d5f86a6113f9f47fbc908f5858ba1edb8ea1d34727ae23b7db",
-          "sha1": "a7613df3af6f8d3f02e1496a1eced35a408a403a",
-          "md5": "774607739619362e68d5ea95e848e1c0"
+          "sha512": "6f33c5f59631734f00997b67215a0a3eae85764363a04696d80512ac167c4175d272b07f7db13713f88b852d1b3a617596317f425212d2e9b7699943c60cd799",
+          "sha256": "ebd8f9bc2179ea14aab3e6163b1c345035ca493e764585a18ec9878048d38d88",
+          "sha1": "054a2b4335f7261affc006af815e5855d7c5d78e",
+          "md5": "db033e006af29c3fe348045889811487"
         }
       ]
     },
@@ -122,10 +122,10 @@
           "name": "mixin_extensions-3.1.0-beta.79-fix+1.21.1-sources.jar",
           "url": "mixin_extensions-3.1.0-beta.79-fix+1.21.1-sources.jar",
           "size": 11045,
-          "sha512": "cf66e3a92b038a25df55c030e36c5f4de19f543ce091afe16fb0fea717ebb1d776ece8df1739322375d6502f73376738f4b180d0b41efb73f89b9e9a6f3e66f3",
-          "sha256": "78295f4c23d8a027ff6cbf3b7417ec4363546cb39e3c129ee55dfffb9f46c4d1",
-          "sha1": "eaf089e698dbee163b85ce8ca3469ebf833847a6",
-          "md5": "c34ad37d4dcb00fc49782b55ee087f60"
+          "sha512": "6e08b993277fec2fc73fdf2a79280fe1737f25f57b69158dad7d14dab6913c9bafdb1b387644cc7f0a128442caaf566cc47b291d079f8a872550298921b813b1",
+          "sha256": "45c25cc86b846adf63f9a6d9a4ae42dd1a0ff8ed256e034e4521ae187db705ae",
+          "sha1": "df7eeacdc81bd9f1a818f501f485bbc4b0c02be6",
+          "md5": "f9b2cb88825ceeebdd67ba0938a862b6"
         }
       ]
     }
