@@ -1,0 +1,263 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.sh1rocu",
+    "module": "TACZ-Refabricated-1.20.1",
+    "version": "0.4.1-forge1.1.7-hotfix",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "8.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TACZ-Refabricated-1.20.1-0.4.1-forge1.1.7-hotfix.jar",
+          "url": "TACZ-Refabricated-1.20.1-0.4.1-forge1.1.7-hotfix.jar",
+          "size": 52683581,
+          "sha512": "b131a505f58829a5aba2ce40330fb8b5fc0a06ebdfcb10b71903847b401c5dc56d72b8d105d3b8dbcdfa82a71e262fff380770230b09d01f8a34b88d30ddeec3",
+          "sha256": "277a9e4be58a126519e8702cb45e9d84054ca1a90ca437081939cfe5eaaed11c",
+          "sha1": "769f23d1cf5b9acd34be61947123f89b5bb8f9fc",
+          "md5": "ada72bc64f4a49542a46b343e792b7fb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "com.github.FiguraMC.luaj",
+          "module": "luaj-core",
+          "version": {
+            "requires": "3.0.8-figura"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.commons",
+              "module": "commons-lang3"
+            }
+          ]
+        },
+        {
+          "group": "com.github.FiguraMC.luaj",
+          "module": "luaj-jse",
+          "version": {
+            "requires": "3.0.8-figura"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.commons",
+              "module": "commons-lang3"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.bcel",
+          "module": "bcel",
+          "version": {
+            "requires": "6.6.1"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.commons",
+              "module": "commons-lang3"
+            }
+          ]
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "8.0.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.17.2"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.6+1.20.1"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "shoulder-surfing-reloaded-243190",
+          "version": {
+            "requires": "6784146"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "11.1.106"
+          }
+        },
+        {
+          "group": "dev.kosmx.player-anim",
+          "module": "player-animation-lib-fabric",
+          "version": {
+            "requires": "1.0.2-rc1+1.20"
+          }
+        },
+        {
+          "group": "dev.onyxstudios.cardinal-components-api",
+          "module": "cardinal-components-base",
+          "version": {
+            "requires": "5.2.3"
+          }
+        },
+        {
+          "group": "dev.onyxstudios.cardinal-components-api",
+          "module": "cardinal-components-entity",
+          "version": {
+            "requires": "5.2.3"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "modernkeybinding",
+          "version": {
+            "requires": "1.20.X-1.2.0"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.2.2"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "accrelatedrendering-refabricated",
+          "version": {
+            "requires": "1.0.8-1.20.1-alpha-fabric.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric",
+          "version": {
+            "requires": "15.20.0.104"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "spark-361579",
+          "version": {
+            "requires": "4738953"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "selene-499980",
+          "version": {
+            "requires": "6902843"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "mmmmmmmmmmmm-225738",
+          "version": {
+            "requires": "6826546"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "tweakeroo",
+          "version": {
+            "requires": "0.17.1"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "malilib",
+          "version": {
+            "requires": "0.16.3"
+          }
+        },
+        {
+          "group": "me.shedaniel",
+          "module": "RoughlyEnoughItems-fabric",
+          "version": {
+            "requires": "12.1.785"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TACZ-Refabricated-1.20.1-0.4.1-forge1.1.7-hotfix.jar",
+          "url": "TACZ-Refabricated-1.20.1-0.4.1-forge1.1.7-hotfix.jar",
+          "size": 52683581,
+          "sha512": "b131a505f58829a5aba2ce40330fb8b5fc0a06ebdfcb10b71903847b401c5dc56d72b8d105d3b8dbcdfa82a71e262fff380770230b09d01f8a34b88d30ddeec3",
+          "sha256": "277a9e4be58a126519e8702cb45e9d84054ca1a90ca437081939cfe5eaaed11c",
+          "sha1": "769f23d1cf5b9acd34be61947123f89b5bb8f9fc",
+          "md5": "ada72bc64f4a49542a46b343e792b7fb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "TACZ-Refabricated-1.20.1-0.4.1-forge1.1.7-hotfix-sources.jar",
+          "url": "TACZ-Refabricated-1.20.1-0.4.1-forge1.1.7-hotfix-sources.jar",
+          "size": 48832512,
+          "sha512": "c7fa7ebcbe09dcb7a15e500366fcfdb5ff1230fbdce05399e56af5c1e433b61b24aadf95dcfd36192fd087e82d24177efcd7122cc2b4a2455789c3d24e9a5272",
+          "sha256": "490fc943559c34bc0f934465c4612424b554e1033c160abac2c73d75aba44a6b",
+          "sha1": "ddf47df495821c8407086f579764fbec25a71283",
+          "md5": "dd97e1ec7abdabcc104f1d9d0c62dac0"
+        }
+      ]
+    }
+  ]
+}
