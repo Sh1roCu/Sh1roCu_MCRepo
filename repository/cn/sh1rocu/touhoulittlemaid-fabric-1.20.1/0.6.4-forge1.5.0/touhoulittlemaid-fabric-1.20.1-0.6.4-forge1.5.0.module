@@ -36,11 +36,11 @@
         {
           "name": "touhoulittlemaid-fabric-1.20.1-0.6.4-forge1.5.0.jar",
           "url": "touhoulittlemaid-fabric-1.20.1-0.6.4-forge1.5.0.jar",
-          "size": 28028828,
-          "sha512": "b9d92ac81e3b0395f85ebd9d796106ebba2fd578f4270574f8c41675a2387da833e89995233b9e656d9b26d6bafd4e3b1e949e8ba72a6086c64a12272bcd26d9",
-          "sha256": "7b2b9730f71c67d647fc5f12b816cfe5f6f17ac1f278b74682c4fe96ecf31f33",
-          "sha1": "129107f3cbdf3a54db28611533c3a91f3dd53d95",
-          "md5": "dbaf28919444a45a817b6816631acbfd"
+          "size": 28029044,
+          "sha512": "66533c09b34ea1401b2327a2a388b85a7cbf3df86971a21ab67f85dea7b55be8d27a975ed9eed37169808eebef732853044aa430c1c2ffeffac7e29181248f39",
+          "sha256": "a90d8fd4426415e8e4c0265b3f065973f298583fdad7d48610097ee5af3b245b",
+          "sha1": "2f493651f1667c145a286e26cb1dc8225a9036c7",
+          "md5": "f13d30fc2d1d0d0796c4aad69c526896"
         }
       ]
     },
@@ -410,7 +410,7 @@
           "group": "io.github.cottonmc",
           "module": "LibGui",
           "version": {
-            "requires": "8.1.1+1.20.1"
+            "requires": "8.0.2+1.20"
           }
         },
         {
@@ -439,11 +439,11 @@
         {
           "name": "touhoulittlemaid-fabric-1.20.1-0.6.4-forge1.5.0.jar",
           "url": "touhoulittlemaid-fabric-1.20.1-0.6.4-forge1.5.0.jar",
-          "size": 28028828,
-          "sha512": "b9d92ac81e3b0395f85ebd9d796106ebba2fd578f4270574f8c41675a2387da833e89995233b9e656d9b26d6bafd4e3b1e949e8ba72a6086c64a12272bcd26d9",
-          "sha256": "7b2b9730f71c67d647fc5f12b816cfe5f6f17ac1f278b74682c4fe96ecf31f33",
-          "sha1": "129107f3cbdf3a54db28611533c3a91f3dd53d95",
-          "md5": "dbaf28919444a45a817b6816631acbfd"
+          "size": 28029044,
+          "sha512": "66533c09b34ea1401b2327a2a388b85a7cbf3df86971a21ab67f85dea7b55be8d27a975ed9eed37169808eebef732853044aa430c1c2ffeffac7e29181248f39",
+          "sha256": "a90d8fd4426415e8e4c0265b3f065973f298583fdad7d48610097ee5af3b245b",
+          "sha1": "2f493651f1667c145a286e26cb1dc8225a9036c7",
+          "md5": "f13d30fc2d1d0d0796c4aad69c526896"
         }
       ]
     },
@@ -459,11 +459,11 @@
         {
           "name": "touhoulittlemaid-fabric-1.20.1-0.6.4-forge1.5.0-shadow.jar",
           "url": "touhoulittlemaid-fabric-1.20.1-0.6.4-forge1.5.0-shadow.jar",
-          "size": 23381887,
-          "sha512": "1ccead676658b43c4947c0912c858848c78dd14e1a10d73bd635d5d432e1a502975f208da023b9efbb768e208e3179a65803609ae70e3a9f76fe45d588cd6b36",
-          "sha256": "eefea22cad976f6b0a50a9e8fb0b2ce46caac1d658eb9368b2bbb1566daf7516",
-          "sha1": "d606df3f36d047e4605d22ff7a8d6800b45e3378",
-          "md5": "90d2435fc4fe79005e56c1ff04ca4e30"
+          "size": 23382090,
+          "sha512": "dca7a1d78adc3de700f76299af200528f2d9d4291724c057f032001bf6c1e10c9304c4b2c0d260b4e561022b72f723ec3fc90eec342a0c351f3bc7d9ca211ddc",
+          "sha256": "57964a688442af2a49d9e95f6aeb91e3ae67e7cbc6642e062d813ddcf331edf3",
+          "sha1": "1f2da2c9758585d050e27393acc5e0957d6e8686",
+          "md5": "889fb1a0c9503095ea6cdde546f8b848"
         }
       ]
     },
@@ -479,11 +479,11 @@
         {
           "name": "touhoulittlemaid-fabric-1.20.1-0.6.4-forge1.5.0-sources.jar",
           "url": "touhoulittlemaid-fabric-1.20.1-0.6.4-forge1.5.0-sources.jar",
-          "size": 21255604,
-          "sha512": "533baa96753f1638f138017272139cf5fb65ce735d28e27ad23250ac59e9bddb448351b3dea0bdb832403260490e48b33ed06e09c14f18586c274258047a3c5e",
-          "sha256": "390bd3c64b44be4090d3ec5570fc11c997f47ba5e39da08edff18057430483e5",
-          "sha1": "d1b8fcba80d64e53b4eb4304c43f7c56a550c962",
-          "md5": "e907f1f5823972ed959ede6137f32a9f"
+          "size": 21255713,
+          "sha512": "4a35dfb324dec104c5e140e81211b2a44763bd32e560e286cc8958efd0ce5caf200356fcb9ac1027034a8c6471e889a2a6a045984afafa32aee65a2223dd8b92",
+          "sha256": "357e5be0bd61d233e087bd6056c07fb2ff8071f53dc27dfd566e94f2a46dbded",
+          "sha1": "20ea60eb831629745470edf707de1e91eb1903e9",
+          "md5": "0804b41d7af8a8508c74862bb5444740"
         }
       ]
     }
