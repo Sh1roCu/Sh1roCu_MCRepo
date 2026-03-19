@@ -3,7 +3,7 @@
   "component": {
     "group": "cn.sh1rocu",
     "module": "tlmo-additions",
-    "version": "1.0.0+mc1.20.1",
+    "version": "1.0.0+mc1.21.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -19,19 +19,19 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 17,
+        "org.gradle.jvm.version": 21,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
       "files": [
         {
-          "name": "tlmo-additions-1.0.0+mc1.20.1.jar",
-          "url": "tlmo-additions-1.0.0+mc1.20.1.jar",
-          "size": 443111,
-          "sha512": "a42dfb31caef296948a2a21e99e291d4c9cc1950bf06e0d8ea8ea075b7bff7436930f6c9c2d3cf881b90b4cb8458d0cb91b629e9b1daa626f495dc338421cbdb",
-          "sha256": "c988d224dbd9d26d1b26a99f6ba718d49e2f440385a542332a7c1b761a223849",
-          "sha1": "a15d3026e02a146c33b824e05d235897434232c3",
-          "md5": "3880adf6547082a46ce17824d87e7975"
+          "name": "tlmo-additions-1.0.0+mc1.21.1.jar",
+          "url": "tlmo-additions-1.0.0+mc1.21.1.jar",
+          "size": 450957,
+          "sha512": "694acc77a6b7efda8f44c9d5ba818004479161d0c7162f3cc72942a2f4205397984b9f09c35a6bc57a5d0729b5ef9e91072d437dc8cfaf9d97b9e789ea1a2d1d",
+          "sha256": "c35642aef36a918bd0f2b2101f8a8188780a07277d85713f8395927faa866e67",
+          "sha1": "0fcc7eead89842f836345ef0b95ae4995d79f58a",
+          "md5": "b43cf477733e21dac16c6902372d63b4"
         }
       ]
     },
@@ -40,7 +40,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 17,
+        "org.gradle.jvm.version": 21,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
@@ -56,14 +56,14 @@
           "group": "net.fabricmc.fabric-api",
           "module": "fabric-api",
           "version": {
-            "requires": "0.92.7+1.20.1"
+            "requires": "0.116.9+1.21.1"
           }
         },
         {
           "group": "cn.sh1rocu",
-          "module": "touhoulittlemaid-fabric-1.20.1",
+          "module": "touhoulittlemaid-fabric-1.21.1",
           "version": {
-            "requires": "0.6.4-forge1.5.0"
+            "requires": "0.6.2-neo1.5.0"
           },
           "excludes": [
             {
@@ -71,8 +71,8 @@
               "module": "*"
             },
             {
-              "group": "net.conczin",
-              "module": "*"
+              "group": "cn.sh1rocu",
+              "module": "slashblade-refabricated"
             }
           ]
         },
@@ -80,28 +80,28 @@
           "group": "curse.maven",
           "module": "explorers-compass-491794",
           "version": {
-            "requires": "4712192"
+            "requires": "5696038"
           }
         },
         {
           "group": "curse.maven",
           "module": "natures-compass-252848",
           "version": {
-            "requires": "4712188"
+            "requires": "5756913"
           }
         },
         {
           "group": "com.terraformersmc",
           "module": "modmenu",
           "version": {
-            "requires": "7.2.2"
+            "requires": "11.0.3"
           }
         },
         {
           "group": "me.shedaniel.cloth",
           "module": "cloth-config-fabric",
           "version": {
-            "requires": "11.1.136"
+            "requires": "15.0.128"
           },
           "excludes": [
             {
@@ -109,24 +109,17 @@
               "module": "*"
             }
           ]
-        },
-        {
-          "group": "com.simibubi.create",
-          "module": "create-fabric",
-          "version": {
-            "requires": "6.0.8.1+build.1744-mc1.20.1"
-          }
         }
       ],
       "files": [
         {
-          "name": "tlmo-additions-1.0.0+mc1.20.1.jar",
-          "url": "tlmo-additions-1.0.0+mc1.20.1.jar",
-          "size": 443111,
-          "sha512": "a42dfb31caef296948a2a21e99e291d4c9cc1950bf06e0d8ea8ea075b7bff7436930f6c9c2d3cf881b90b4cb8458d0cb91b629e9b1daa626f495dc338421cbdb",
-          "sha256": "c988d224dbd9d26d1b26a99f6ba718d49e2f440385a542332a7c1b761a223849",
-          "sha1": "a15d3026e02a146c33b824e05d235897434232c3",
-          "md5": "3880adf6547082a46ce17824d87e7975"
+          "name": "tlmo-additions-1.0.0+mc1.21.1.jar",
+          "url": "tlmo-additions-1.0.0+mc1.21.1.jar",
+          "size": 450957,
+          "sha512": "694acc77a6b7efda8f44c9d5ba818004479161d0c7162f3cc72942a2f4205397984b9f09c35a6bc57a5d0729b5ef9e91072d437dc8cfaf9d97b9e789ea1a2d1d",
+          "sha256": "c35642aef36a918bd0f2b2101f8a8188780a07277d85713f8395927faa866e67",
+          "sha1": "0fcc7eead89842f836345ef0b95ae4995d79f58a",
+          "md5": "b43cf477733e21dac16c6902372d63b4"
         }
       ]
     },
@@ -140,13 +133,13 @@
       },
       "files": [
         {
-          "name": "tlmo-additions-1.0.0+mc1.20.1-sources.jar",
-          "url": "tlmo-additions-1.0.0+mc1.20.1-sources.jar",
-          "size": 259702,
-          "sha512": "a4ec20d1efcbccfa841a76bd65f2eaed4b2b58c95b30f42b85c54c1726fa4eb2f8d28abba55acc986320bebea70e0431e08b766039fce8666571a29be6639af4",
-          "sha256": "c92350582c1359003428f867d6629ecc4e7cf0eef6b800ec438a3cfa79ab35c7",
-          "sha1": "28f728d2586640febbff8393f3c4b554f9f02c6d",
-          "md5": "ea0a12115f847ed7326027c26b04ee68"
+          "name": "tlmo-additions-1.0.0+mc1.21.1-sources.jar",
+          "url": "tlmo-additions-1.0.0+mc1.21.1-sources.jar",
+          "size": 267363,
+          "sha512": "bffb7f57c2cc2cc366a92b6eeda569c1f351b91e62f055788adf16042488f01b049f8120f2685e3df6d36be8a1e04746057a38333a28f320c943380e72de6638",
+          "sha256": "95a7ff54f244df8879f79dc76847126e6c1ac8a107b5cbb65f08fbbc9cd3a3c5",
+          "sha1": "9e4b685e7cebd745f0e19c2bce45bdd47d452f4e",
+          "md5": "2afdb46864aada29ade2c0001cfe8df3"
         }
       ]
     }
