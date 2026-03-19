@@ -1,0 +1,154 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.sh1rocu",
+    "module": "tlmo-additions",
+    "version": "1.0.0+mc1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "tlmo-additions-1.0.0+mc1.20.1.jar",
+          "url": "tlmo-additions-1.0.0+mc1.20.1.jar",
+          "size": 443144,
+          "sha512": "87b1e232d3bb8eeb176da1e5351ddbdee42077f2ca67af827a05822c0b62c31448c8c3a367dd56551d4ee17fc267c23d6851bc70a137c279097cd6eff85fd242",
+          "sha256": "3658bbdf9b5f987e950c5faf09ae066ea8aa46f97a282c129c7400bca8992970",
+          "sha1": "986e5ca368fda50b183795dddf304618c1ceecad",
+          "md5": "72aaf37387d664ce99a2be4f5ca215fb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.4"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.7+1.20.1"
+          }
+        },
+        {
+          "group": "cn.sh1rocu",
+          "module": "touhoulittlemaid-fabric-1.20.1",
+          "version": {
+            "requires": "0.6.4-forge1.5.0"
+          },
+          "excludes": [
+            {
+              "group": "libs",
+              "module": "*"
+            },
+            {
+              "group": "net.conczin",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "curse.maven",
+          "module": "explorers-compass-491794",
+          "version": {
+            "requires": "4712192"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "natures-compass-252848",
+          "version": {
+            "requires": "4712188"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.2.2"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "11.1.136"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.simibubi.create",
+          "module": "create-fabric",
+          "version": {
+            "requires": "6.0.8.1+build.1744-mc1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tlmo-additions-1.0.0+mc1.20.1.jar",
+          "url": "tlmo-additions-1.0.0+mc1.20.1.jar",
+          "size": 443144,
+          "sha512": "87b1e232d3bb8eeb176da1e5351ddbdee42077f2ca67af827a05822c0b62c31448c8c3a367dd56551d4ee17fc267c23d6851bc70a137c279097cd6eff85fd242",
+          "sha256": "3658bbdf9b5f987e950c5faf09ae066ea8aa46f97a282c129c7400bca8992970",
+          "sha1": "986e5ca368fda50b183795dddf304618c1ceecad",
+          "md5": "72aaf37387d664ce99a2be4f5ca215fb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tlmo-additions-1.0.0+mc1.20.1-sources.jar",
+          "url": "tlmo-additions-1.0.0+mc1.20.1-sources.jar",
+          "size": 259761,
+          "sha512": "22eb67778879460ca549f2274280fef1c4dbf867cd81892132f5385c718bb9bfd3de3309cb09eab0c7c427bfc013b63794ffdff391fb8480f7260b1612b47c79",
+          "sha256": "040c27288f30ca7ba9a7a39ed80180fdbb798b99232a7a83b7fb34cf731eef45",
+          "sha1": "76c1a86d51a41635216ed2ed9cc11bfc15fb537f",
+          "md5": "7b359df4e0fdb9d3ce85baa21168ec47"
+        }
+      ]
+    }
+  ]
+}
