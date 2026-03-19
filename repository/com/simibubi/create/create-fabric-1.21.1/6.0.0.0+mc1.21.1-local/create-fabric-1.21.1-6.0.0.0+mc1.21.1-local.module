@@ -1,0 +1,378 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.simibubi.create",
+    "module": "create-fabric-1.21.1",
+    "version": "6.0.0.0+mc1.21.1-local",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.tterrag.registrate_fabric",
+          "module": "Registrate",
+          "version": {
+            "requires": "1.3.77-MC1.21.1"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "core",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "21.1.3"
+          }
+        },
+        {
+          "group": "dev.engine-room.flywheel",
+          "module": "flywheel-fabric-1.21.1",
+          "version": {
+            "requires": "1.0.1-11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "create-fabric-1.21.1-6.0.0.0+mc1.21.1-local.jar",
+          "url": "create-fabric-1.21.1-6.0.0.0+mc1.21.1-local.jar",
+          "size": 49100479,
+          "sha512": "e059d938d03cdbc1566c6455b77d5ced91988c88cec195b3d8dfef15332bc523840364af2cf227a18d762c5824365b6ed3ac6e471a25e0e89ea73e78e5457f3b",
+          "sha256": "19af0eb1d44e01393367b16bd6754649335e4da5c7c7349a39a2b7c5e1490d61",
+          "sha1": "f9d01758de40cfcea5084ebd23419de259ddfe56",
+          "md5": "83c62e27ab4f4b5801010bee861ac4f0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.tterrag.registrate_fabric",
+          "module": "Registrate",
+          "version": {
+            "requires": "1.3.77-MC1.21.1"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "core",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "21.1.3"
+          }
+        },
+        {
+          "group": "dev.engine-room.flywheel",
+          "module": "flywheel-fabric-1.21.1",
+          "version": {
+            "requires": "1.0.1-11"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.115.1+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "accessors",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "asm",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "attributes",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "base",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "blocks",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "brewing",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "client_events",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "common",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "conditions",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "config",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "core",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "data",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "entity",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "extensions",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "fluids",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "gametest",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "gui_utils",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "item_abilities",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "lazy_registration",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "level_events",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "mixin_extensions",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "model_loader",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "models",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "obj_loader",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "render_types",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "tags",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "transfer",
+          "version": {
+            "requires": "3.1.0-beta.54+1.21.1"
+          }
+        },
+        {
+          "group": "net.createmod.ponder",
+          "module": "Ponder-Fabric-1.21.1",
+          "version": {
+            "requires": "1.0.50"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "create-fabric-1.21.1-6.0.0.0+mc1.21.1-local.jar",
+          "url": "create-fabric-1.21.1-6.0.0.0+mc1.21.1-local.jar",
+          "size": 49100479,
+          "sha512": "e059d938d03cdbc1566c6455b77d5ced91988c88cec195b3d8dfef15332bc523840364af2cf227a18d762c5824365b6ed3ac6e471a25e0e89ea73e78e5457f3b",
+          "sha256": "19af0eb1d44e01393367b16bd6754649335e4da5c7c7349a39a2b7c5e1490d61",
+          "sha1": "f9d01758de40cfcea5084ebd23419de259ddfe56",
+          "md5": "83c62e27ab4f4b5801010bee861ac4f0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "create-fabric-1.21.1-6.0.0.0+mc1.21.1-local-sources.jar",
+          "url": "create-fabric-1.21.1-6.0.0.0+mc1.21.1-local-sources.jar",
+          "size": 13136229,
+          "sha512": "6cdd188ef6d312f33fea5ae434ab054a2ae9aec77796ab6c967dba64d92009e2817a4699bd84fd6f6a19da197a0571bf897802993999250643077cd3b8194f4a",
+          "sha256": "4fd1fd0681cba39a7401cab4df069d719c3e00ae212d5a2e53b20465c86c912e",
+          "sha1": "cac4f7ec3a875be5ca93650e9c0183877667935b",
+          "md5": "e52f8d71f1cf21d5faf0858d8504185d"
+        }
+      ]
+    }
+  ]
+}
