@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.sh1rocu",
+    "module": "tlmo-additions",
+    "version": "1.0.1+mc1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "tlmo-additions-1.0.1+mc1.21.1.jar",
+          "url": "tlmo-additions-1.0.1+mc1.21.1.jar",
+          "size": 450941,
+          "sha512": "6dcbf1ea6a508c11fecaec6a9350453d18885d44b7c85e2148b3fbd39fe30adc47888ae8dd34b7de51e597bd66f846ca129d772874374abeaa0b3fbecb26dfab",
+          "sha256": "2d45fa580b8953f665b11597332aabd70b5cefdd39d27fc6e3afabc358ac8e6a",
+          "sha1": "0a439af1035faa3528cf4ab9329916368f5963f4",
+          "md5": "007a9b20d22fdbddbb1a6a29b0635056"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.4"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.9+1.21.1"
+          }
+        },
+        {
+          "group": "cn.sh1rocu",
+          "module": "touhoulittlemaid-fabric-1.21.1",
+          "version": {
+            "requires": "0.6.2-neo1.5.0"
+          },
+          "excludes": [
+            {
+              "group": "libs",
+              "module": "*"
+            },
+            {
+              "group": "cn.sh1rocu",
+              "module": "slashblade-refabricated"
+            }
+          ]
+        },
+        {
+          "group": "curse.maven",
+          "module": "explorers-compass-491794",
+          "version": {
+            "requires": "5696038"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "natures-compass-252848",
+          "version": {
+            "requires": "5756913"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.3"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "15.0.128"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "tlmo-additions-1.0.1+mc1.21.1.jar",
+          "url": "tlmo-additions-1.0.1+mc1.21.1.jar",
+          "size": 450941,
+          "sha512": "6dcbf1ea6a508c11fecaec6a9350453d18885d44b7c85e2148b3fbd39fe30adc47888ae8dd34b7de51e597bd66f846ca129d772874374abeaa0b3fbecb26dfab",
+          "sha256": "2d45fa580b8953f665b11597332aabd70b5cefdd39d27fc6e3afabc358ac8e6a",
+          "sha1": "0a439af1035faa3528cf4ab9329916368f5963f4",
+          "md5": "007a9b20d22fdbddbb1a6a29b0635056"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tlmo-additions-1.0.1+mc1.21.1-sources.jar",
+          "url": "tlmo-additions-1.0.1+mc1.21.1-sources.jar",
+          "size": 267374,
+          "sha512": "6e151a73556e0a344dd71488288ee4cc231d91bea089ef121b1b8cd33161f4d340f9970999fda45a7cd7f93af6e523c9b3e20e49c0dec1f0d63bafee312102ad",
+          "sha256": "64d63922ba457b1926faa57436574093d0ac3947c8cb8bb35c3b5962ae5b555c",
+          "sha1": "9915bec354b8dad16430a4a0ea9e96a1664e0da2",
+          "md5": "f628cd15e65ece07b348b8a84e3c63ee"
+        }
+      ]
+    }
+  ]
+}
