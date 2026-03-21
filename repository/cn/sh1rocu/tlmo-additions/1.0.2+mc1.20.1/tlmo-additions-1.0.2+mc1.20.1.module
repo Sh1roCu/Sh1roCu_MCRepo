@@ -3,7 +3,7 @@
   "component": {
     "group": "cn.sh1rocu",
     "module": "tlmo-additions",
-    "version": "1.0.1+mc1.21.1",
+    "version": "1.0.2+mc1.20.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -19,19 +19,19 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 21,
+        "org.gradle.jvm.version": 17,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
       "files": [
         {
-          "name": "tlmo-additions-1.0.1+mc1.21.1.jar",
-          "url": "tlmo-additions-1.0.1+mc1.21.1.jar",
-          "size": 450941,
-          "sha512": "6dcbf1ea6a508c11fecaec6a9350453d18885d44b7c85e2148b3fbd39fe30adc47888ae8dd34b7de51e597bd66f846ca129d772874374abeaa0b3fbecb26dfab",
-          "sha256": "2d45fa580b8953f665b11597332aabd70b5cefdd39d27fc6e3afabc358ac8e6a",
-          "sha1": "0a439af1035faa3528cf4ab9329916368f5963f4",
-          "md5": "007a9b20d22fdbddbb1a6a29b0635056"
+          "name": "tlmo-additions-1.0.2+mc1.20.1.jar",
+          "url": "tlmo-additions-1.0.2+mc1.20.1.jar",
+          "size": 446527,
+          "sha512": "305b238d473932e3efa98cb77e3e640e20dff78f909510ac6fc3ce0360926efdd24e3a29cf5a6965fe6ad3d0818a911c84c6c8af8106415d22762a180d753c96",
+          "sha256": "732868d8cb04bc68c271bcb1e667cb32170f5792cdd876b6999c8fd15392271d",
+          "sha1": "07d1f65f8b8d53468ace3554f016e98e1945c29f",
+          "md5": "d99717a08ba7ea58a2835298386e0370"
         }
       ]
     },
@@ -40,7 +40,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 21,
+        "org.gradle.jvm.version": 17,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
@@ -56,14 +56,14 @@
           "group": "net.fabricmc.fabric-api",
           "module": "fabric-api",
           "version": {
-            "requires": "0.116.9+1.21.1"
+            "requires": "0.92.7+1.20.1"
           }
         },
         {
           "group": "cn.sh1rocu",
-          "module": "touhoulittlemaid-fabric-1.21.1",
+          "module": "touhoulittlemaid-fabric-1.20.1",
           "version": {
-            "requires": "0.6.2-neo1.5.0"
+            "requires": "0.6.4-forge1.5.0"
           },
           "excludes": [
             {
@@ -71,8 +71,8 @@
               "module": "*"
             },
             {
-              "group": "cn.sh1rocu",
-              "module": "slashblade-refabricated"
+              "group": "net.conczin",
+              "module": "*"
             }
           ]
         },
@@ -80,28 +80,28 @@
           "group": "curse.maven",
           "module": "explorers-compass-491794",
           "version": {
-            "requires": "5696038"
+            "requires": "4712192"
           }
         },
         {
           "group": "curse.maven",
           "module": "natures-compass-252848",
           "version": {
-            "requires": "5756913"
+            "requires": "4712188"
           }
         },
         {
           "group": "com.terraformersmc",
           "module": "modmenu",
           "version": {
-            "requires": "11.0.3"
+            "requires": "7.2.2"
           }
         },
         {
           "group": "me.shedaniel.cloth",
           "module": "cloth-config-fabric",
           "version": {
-            "requires": "15.0.128"
+            "requires": "11.1.136"
           },
           "excludes": [
             {
@@ -109,17 +109,31 @@
               "module": "*"
             }
           ]
+        },
+        {
+          "group": "com.simibubi.create",
+          "module": "create-fabric",
+          "version": {
+            "requires": "6.0.8.1+build.1744-mc1.20.1"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "create-connected-fabric-1005193",
+          "version": {
+            "requires": "7781316"
+          }
         }
       ],
       "files": [
         {
-          "name": "tlmo-additions-1.0.1+mc1.21.1.jar",
-          "url": "tlmo-additions-1.0.1+mc1.21.1.jar",
-          "size": 450941,
-          "sha512": "6dcbf1ea6a508c11fecaec6a9350453d18885d44b7c85e2148b3fbd39fe30adc47888ae8dd34b7de51e597bd66f846ca129d772874374abeaa0b3fbecb26dfab",
-          "sha256": "2d45fa580b8953f665b11597332aabd70b5cefdd39d27fc6e3afabc358ac8e6a",
-          "sha1": "0a439af1035faa3528cf4ab9329916368f5963f4",
-          "md5": "007a9b20d22fdbddbb1a6a29b0635056"
+          "name": "tlmo-additions-1.0.2+mc1.20.1.jar",
+          "url": "tlmo-additions-1.0.2+mc1.20.1.jar",
+          "size": 446527,
+          "sha512": "305b238d473932e3efa98cb77e3e640e20dff78f909510ac6fc3ce0360926efdd24e3a29cf5a6965fe6ad3d0818a911c84c6c8af8106415d22762a180d753c96",
+          "sha256": "732868d8cb04bc68c271bcb1e667cb32170f5792cdd876b6999c8fd15392271d",
+          "sha1": "07d1f65f8b8d53468ace3554f016e98e1945c29f",
+          "md5": "d99717a08ba7ea58a2835298386e0370"
         }
       ]
     },
@@ -133,13 +147,13 @@
       },
       "files": [
         {
-          "name": "tlmo-additions-1.0.1+mc1.21.1-sources.jar",
-          "url": "tlmo-additions-1.0.1+mc1.21.1-sources.jar",
-          "size": 267374,
-          "sha512": "6e151a73556e0a344dd71488288ee4cc231d91bea089ef121b1b8cd33161f4d340f9970999fda45a7cd7f93af6e523c9b3e20e49c0dec1f0d63bafee312102ad",
-          "sha256": "64d63922ba457b1926faa57436574093d0ac3947c8cb8bb35c3b5962ae5b555c",
-          "sha1": "9915bec354b8dad16430a4a0ea9e96a1664e0da2",
-          "md5": "f628cd15e65ece07b348b8a84e3c63ee"
+          "name": "tlmo-additions-1.0.2+mc1.20.1-sources.jar",
+          "url": "tlmo-additions-1.0.2+mc1.20.1-sources.jar",
+          "size": 261947,
+          "sha512": "39ab021f616c99123f256a8623d6b703c83787cbc9b6a44aa23f66bb8fe9cfcd0149e114903de54d6e00777b592a0c914ddd91004e5dfc6e7b255a6809703cf4",
+          "sha256": "047bc4f7354779a4b3cb7dd5b01af04f0594af89f5845ae65503ac723f2ad838",
+          "sha1": "7715354616de91673dd6171571baf13c2d399bb8",
+          "md5": "049863fef378fe7a4bb88dcdaee0cab0"
         }
       ]
     }

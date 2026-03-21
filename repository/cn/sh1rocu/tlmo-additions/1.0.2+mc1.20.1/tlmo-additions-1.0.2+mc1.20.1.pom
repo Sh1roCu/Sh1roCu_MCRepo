@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>cn.sh1rocu</groupId>
   <artifactId>tlmo-additions</artifactId>
-  <version>1.0.1+mc1.20.1</version>
+  <version>1.0.2+mc1.20.1</version>
   <dependencies>
     <dependency>
       <groupId>net.fabricmc</groupId>
@@ -73,6 +73,12 @@
       <groupId>com.simibubi.create</groupId>
       <artifactId>create-fabric</artifactId>
       <version>6.0.8.1+build.1744-mc1.20.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>create-connected-fabric-1005193</artifactId>
+      <version>7781316</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
