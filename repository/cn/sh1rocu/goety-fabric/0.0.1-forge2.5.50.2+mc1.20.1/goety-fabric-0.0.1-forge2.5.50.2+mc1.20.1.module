@@ -1,0 +1,188 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.sh1rocu",
+    "module": "goety-fabric",
+    "version": "0.0.1-forge2.5.50.2+mc1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "8.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "goety-fabric-0.0.1-forge2.5.50.2+mc1.20.1.jar",
+          "url": "goety-fabric-0.0.1-forge2.5.50.2+mc1.20.1.jar",
+          "size": 76245734,
+          "sha512": "fa8d4927f07f07ed8683433c7c63f3f40e917d0d8aa1e6d37e5b32ad423b28b9b1313f1d60b12f254a56745c9c7cb3eec7d6a1a6dadac4283a69ebed5f2826b4",
+          "sha256": "d0eb8b289313b0f93fb6c2e656ff35a612d7d1357149704b3fd8cfa015062a55",
+          "sha1": "f81d884f57e7a7054a36c97a18f9bd1ebed51822",
+          "md5": "a5c1bd36eb11fab78807c9b2332ffbe5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "8.0.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.7+1.20.1"
+          }
+        },
+        {
+          "group": "com.github.Chocohead",
+          "module": "Fabric-ASM",
+          "version": {
+            "requires": "v2.3"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "models",
+          "version": {
+            "requires": "2.3.15+1.20.1"
+          }
+        },
+        {
+          "group": "com.jamieswhiteshirt",
+          "module": "reach-entity-attributes",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "com.github.emilyploszaj",
+          "module": "step-height-entity-attribute",
+          "version": {
+            "requires": "v1.2.0"
+          }
+        },
+        {
+          "group": "dev.onyxstudios.cardinal-components-api",
+          "module": "cardinal-components-base",
+          "version": {
+            "requires": "5.2.3"
+          }
+        },
+        {
+          "group": "dev.onyxstudios.cardinal-components-api",
+          "module": "cardinal-components-entity",
+          "version": {
+            "requires": "5.2.3"
+          }
+        },
+        {
+          "group": "dev.emi",
+          "module": "trinkets",
+          "version": {
+            "requires": "3.7.1"
+          }
+        },
+        {
+          "group": "vazkii.patchouli",
+          "module": "Patchouli",
+          "version": {
+            "requires": "1.20.1-81-FABRIC"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jade",
+          "version": {
+            "requires": "11.13.1+fabric"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric",
+          "version": {
+            "requires": "15.2.0.27"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "goety-fabric-0.0.1-forge2.5.50.2+mc1.20.1.jar",
+          "url": "goety-fabric-0.0.1-forge2.5.50.2+mc1.20.1.jar",
+          "size": 76245734,
+          "sha512": "fa8d4927f07f07ed8683433c7c63f3f40e917d0d8aa1e6d37e5b32ad423b28b9b1313f1d60b12f254a56745c9c7cb3eec7d6a1a6dadac4283a69ebed5f2826b4",
+          "sha256": "d0eb8b289313b0f93fb6c2e656ff35a612d7d1357149704b3fd8cfa015062a55",
+          "sha1": "f81d884f57e7a7054a36c97a18f9bd1ebed51822",
+          "md5": "a5c1bd36eb11fab78807c9b2332ffbe5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "goety-fabric-0.0.1-forge2.5.50.2+mc1.20.1-sources.jar",
+          "url": "goety-fabric-0.0.1-forge2.5.50.2+mc1.20.1-sources.jar",
+          "size": 71093574,
+          "sha512": "bedfc6ad98d99415501e5495c03f6b8ddad2a884f0f2b6be42751628969af8fc38f48b01dbcd443a2df66dd9683553483bbcbfa93b964fc28e96185de15bed6e",
+          "sha256": "56b4a83422710f98ba642311fd9e1cbc79b1b7bff74b6cbabe05a0374f6b2df8",
+          "sha1": "e8670281cf4d7a6c10df2ca95a810f451d9d5642",
+          "md5": "cce89a172b7aa58b893065dc14929eee"
+        }
+      ]
+    }
+  ]
+}
