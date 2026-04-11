@@ -36,11 +36,11 @@
         {
           "name": "TACZ-Refabricated-1.20.1-0.5.1-forge1.1.7-hotfix2.jar",
           "url": "TACZ-Refabricated-1.20.1-0.5.1-forge1.1.7-hotfix2.jar",
-          "size": 52683750,
-          "sha512": "642076d0a3910a3592bdb08ac8e51391ed3cbc61e37d6083c47ac3707e4ccc624c57e88c3e5fe13196843563fdd6c51ce2aaba2fc28256e925f631a5c2e6f92f",
-          "sha256": "7839d2338e0e4acfb520539aaca9a6d50be2d6e646a1883eefa13623c23155a5",
-          "sha1": "f334aeb77e15799e146cc6d6ed2257331e1b7141",
-          "md5": "b0cef3ef3e1e251815c5699c134b3547"
+          "size": 52683794,
+          "sha512": "52f10f1f4e35357e553c9930f57fc36a4825017d8d14870301cbbc179df440a804a4343295d36b7034e077fd13d45ac5d4c346161aae9e215974b38db69bd84d",
+          "sha256": "516a8007f24aa634aea1c79fee549990eb89c9238b895b6b66fc3e01b7891c40",
+          "sha1": "7961e56a9a1ec617f7763f31670ca2414b20bb97",
+          "md5": "456e2731249f704a7286dfa7b500ec0d"
         }
       ]
     },
@@ -231,11 +231,11 @@
         {
           "name": "TACZ-Refabricated-1.20.1-0.5.1-forge1.1.7-hotfix2.jar",
           "url": "TACZ-Refabricated-1.20.1-0.5.1-forge1.1.7-hotfix2.jar",
-          "size": 52683750,
-          "sha512": "642076d0a3910a3592bdb08ac8e51391ed3cbc61e37d6083c47ac3707e4ccc624c57e88c3e5fe13196843563fdd6c51ce2aaba2fc28256e925f631a5c2e6f92f",
-          "sha256": "7839d2338e0e4acfb520539aaca9a6d50be2d6e646a1883eefa13623c23155a5",
-          "sha1": "f334aeb77e15799e146cc6d6ed2257331e1b7141",
-          "md5": "b0cef3ef3e1e251815c5699c134b3547"
+          "size": 52683794,
+          "sha512": "52f10f1f4e35357e553c9930f57fc36a4825017d8d14870301cbbc179df440a804a4343295d36b7034e077fd13d45ac5d4c346161aae9e215974b38db69bd84d",
+          "sha256": "516a8007f24aa634aea1c79fee549990eb89c9238b895b6b66fc3e01b7891c40",
+          "sha1": "7961e56a9a1ec617f7763f31670ca2414b20bb97",
+          "md5": "456e2731249f704a7286dfa7b500ec0d"
         }
       ]
     },
@@ -251,11 +251,11 @@
         {
           "name": "TACZ-Refabricated-1.20.1-0.5.1-forge1.1.7-hotfix2-sources.jar",
           "url": "TACZ-Refabricated-1.20.1-0.5.1-forge1.1.7-hotfix2-sources.jar",
-          "size": 48832750,
-          "sha512": "071062de98316449a592b50c5b120620c3e8ce4721658de451aba2505ddf710dc08de36a413a7867a82800a1e9efce2257b1c820911b1823fc4b01dc72842ef4",
-          "sha256": "e023e91e622d07434bd2af9d9f6af492ae51673571ba3091552bd4f6e8c6e97b",
-          "sha1": "c42e0901ca9370cbd89bdbcf355dc67c905cdd30",
-          "md5": "852ed47627dc6ee3c9e4578853ecc223"
+          "size": 48832778,
+          "sha512": "3cb9d15d08355f71c1da91156cb166c4f80e8b3fd9d8dab7837581da90cac82a2b67dffc7746773b79874c5a693cd1fffce1f5afd1262b7373328df8a047b45d",
+          "sha256": "5b35d6f823e0d5a6bbe8b5c85eea387c1f95c40d7ac79e61afc61ad10e4dff70",
+          "sha1": "fb9ddf000325e9598a81090f77c68d5db7c2b395",
+          "md5": "f99061f7ffb1aa0ee8e1482a367b2a1a"
         }
       ]
     }
