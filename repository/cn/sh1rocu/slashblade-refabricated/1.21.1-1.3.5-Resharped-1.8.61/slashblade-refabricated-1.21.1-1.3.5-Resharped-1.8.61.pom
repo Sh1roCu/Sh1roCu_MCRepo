@@ -43,6 +43,12 @@
     </dependency>
     <dependency>
       <groupId>io.github.fabricators_of_create.Porting-Lib</groupId>
+      <artifactId>mixin_extensions</artifactId>
+      <version>3.1.0-beta.79-fix+1.21.1-fix</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.github.fabricators_of_create.Porting-Lib</groupId>
       <artifactId>obj_loader</artifactId>
       <version>3.1.0-beta.79-fix+1.21.1-fix</version>
       <scope>runtime</scope>
