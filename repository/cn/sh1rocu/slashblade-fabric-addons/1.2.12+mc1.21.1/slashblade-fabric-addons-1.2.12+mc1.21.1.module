@@ -1,0 +1,246 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.sh1rocu",
+    "module": "slashblade-fabric-addons",
+    "version": "1.2.12+mc1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "teamreborn",
+          "module": "energy",
+          "version": {
+            "requires": "4.1.0"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-common-api",
+          "version": {
+            "requires": "19.27.0.340"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-fabric-api",
+          "version": {
+            "requires": "19.27.0.340"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "slashblade-fabric-addons-1.2.12+mc1.21.1.jar",
+          "url": "slashblade-fabric-addons-1.2.12+mc1.21.1.jar",
+          "size": 50857956,
+          "sha512": "f09a259e7714ac241e6b6b1d4f39bd47c4e3c091a0908921cacb1041b954470b1d2138a547f58d8b44036b5ba26fa7046f9dfc59b970270994067473629c3a16",
+          "sha256": "1224716dd9d2630dd37927ce0a35fac2c9ed28c03ef0640117d1fea77982959d",
+          "sha1": "28bf8b9d5698f693d6c993225323a51e05ab4493",
+          "md5": "63f1be2c2dbf90c3bb27d309550cd066"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "teamreborn",
+          "module": "energy",
+          "version": {
+            "requires": "4.1.0"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.17.2"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.7+1.21.1"
+          }
+        },
+        {
+          "group": "cn.sh1rocu",
+          "module": "slashblade-refabricated",
+          "version": {
+            "requires": "1.21.1-1.3.5-Resharped-1.8.61"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "core",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "gametest",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "obj_loader",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "model_loader",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "render_types",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "entity",
+          "version": {
+            "requires": "3.1.0-beta.79-fix+1.21.1-fix"
+          }
+        },
+        {
+          "group": "org.ladysnake.cardinal-components-api",
+          "module": "cardinal-components-base",
+          "version": {
+            "requires": "6.1.2"
+          }
+        },
+        {
+          "group": "org.ladysnake.cardinal-components-api",
+          "module": "cardinal-components-entity",
+          "version": {
+            "requires": "6.1.2"
+          }
+        },
+        {
+          "group": "cn.sh1rocu",
+          "module": "touhoulittlemaid-fabric-1.21.1",
+          "version": {
+            "requires": "0.5.1-neo1.4.6"
+          },
+          "excludes": [
+            {
+              "group": "libs",
+              "module": "*"
+            },
+            {
+              "group": "net.conczin",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "vazkii.patchouli",
+          "module": "Patchouli",
+          "version": {
+            "requires": "1.21-87-FABRIC"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-fabric",
+          "version": {
+            "requires": "19.27.0.340"
+          }
+        },
+        {
+          "group": "dev.kosmx.player-anim",
+          "module": "player-animation-lib-fabric",
+          "version": {
+            "requires": "2.0.1+1.21.1"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "modernfix-790626",
+          "version": {
+            "requires": "6766123"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "slashblade-fabric-addons-1.2.12+mc1.21.1.jar",
+          "url": "slashblade-fabric-addons-1.2.12+mc1.21.1.jar",
+          "size": 50857956,
+          "sha512": "f09a259e7714ac241e6b6b1d4f39bd47c4e3c091a0908921cacb1041b954470b1d2138a547f58d8b44036b5ba26fa7046f9dfc59b970270994067473629c3a16",
+          "sha256": "1224716dd9d2630dd37927ce0a35fac2c9ed28c03ef0640117d1fea77982959d",
+          "sha1": "28bf8b9d5698f693d6c993225323a51e05ab4493",
+          "md5": "63f1be2c2dbf90c3bb27d309550cd066"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "slashblade-fabric-addons-1.2.12+mc1.21.1-sources.jar",
+          "url": "slashblade-fabric-addons-1.2.12+mc1.21.1-sources.jar",
+          "size": 50566490,
+          "sha512": "815b66934c81bd77774668f4243675339bc60e1b0405ec1949e0f8222dedb0961ae5be81e67efc6022fd95591c16861452988f912e39657f44fd2b5087b5419d",
+          "sha256": "40607dd6d2cd746cd9d1105895b167f5065e7c76c2dfad9ee33d7315d19c5625",
+          "sha1": "0fbcbb811a81dfb571fd42afbcf88f5f4303be14",
+          "md5": "5abfddfde1f1c45bf7fdc14adb52bcb7"
+        }
+      ]
+    }
+  ]
+}
