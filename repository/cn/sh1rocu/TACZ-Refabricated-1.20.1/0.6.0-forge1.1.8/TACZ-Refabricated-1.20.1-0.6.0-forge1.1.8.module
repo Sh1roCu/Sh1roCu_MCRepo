@@ -1,0 +1,291 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.sh1rocu",
+    "module": "TACZ-Refabricated-1.20.1",
+    "version": "0.6.0-forge1.1.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "8.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TACZ-Refabricated-1.20.1-0.6.0-forge1.1.8.jar",
+          "url": "TACZ-Refabricated-1.20.1-0.6.0-forge1.1.8.jar",
+          "size": 57639233,
+          "sha512": "a2507a9517e88b44fc41d8e81b4f6bec54bb54113985efd46e91fcbd04471b841b5772d6ded2416f1256df57365d143d4458672e1b4da643b872f5c662cdae3c",
+          "sha256": "ddb3a239368c088b0a93be193f15fb7410733c8973a8bbc14118a7835b2cb685",
+          "sha1": "ce5a9ddd18a84173d75928d96890e10c704974d8",
+          "md5": "3f652c356cbb1fa25f28dff883f4ab6a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.maydaymemory",
+          "module": "mae",
+          "version": {
+            "requires": "1.1.1"
+          },
+          "excludes": [
+            {
+              "group": "com.google.code.findbugs",
+              "module": "jsr305"
+            },
+            {
+              "group": "it.unimi.dsi",
+              "module": "fastutil"
+            },
+            {
+              "group": "org.joml",
+              "module": "joml"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "com.github.FiguraMC.luaj",
+          "module": "luaj-core",
+          "version": {
+            "requires": "3.0.8-figura"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.commons",
+              "module": "commons-lang3"
+            }
+          ]
+        },
+        {
+          "group": "com.github.FiguraMC.luaj",
+          "module": "luaj-jse",
+          "version": {
+            "requires": "3.0.8-figura"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.commons",
+              "module": "commons-lang3"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.bcel",
+          "module": "bcel",
+          "version": {
+            "requires": "6.6.1"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.commons",
+              "module": "commons-lang3"
+            }
+          ]
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "8.0.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.17.2"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.6+1.20.1"
+          }
+        },
+        {
+          "group": "libs",
+          "module": "simplebedrockmodel-fabric",
+          "version": {
+            "requires": "2.3.0.1+mc1.20.1"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "shoulder-surfing-reloaded-243190",
+          "version": {
+            "requires": "6784146"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "11.1.106"
+          }
+        },
+        {
+          "group": "dev.kosmx.player-anim",
+          "module": "player-animation-lib-fabric",
+          "version": {
+            "requires": "1.0.2-rc1+1.20"
+          }
+        },
+        {
+          "group": "dev.onyxstudios.cardinal-components-api",
+          "module": "cardinal-components-base",
+          "version": {
+            "requires": "5.2.3"
+          }
+        },
+        {
+          "group": "dev.onyxstudios.cardinal-components-api",
+          "module": "cardinal-components-entity",
+          "version": {
+            "requires": "5.2.3"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "modernkeybinding",
+          "version": {
+            "requires": "1.20.X-1.2.0"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.2.2"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "accrelatedrendering-refabricated",
+          "version": {
+            "requires": "1.0.8-1.20.1-alpha-fabric.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric",
+          "version": {
+            "requires": "15.20.0.104"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "spark-361579",
+          "version": {
+            "requires": "4738953"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "selene-499980",
+          "version": {
+            "requires": "6902843"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "mmmmmmmmmmmm-225738",
+          "version": {
+            "requires": "6826546"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "tweakeroo",
+          "version": {
+            "requires": "0.17.1"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "malilib",
+          "version": {
+            "requires": "0.16.3"
+          }
+        },
+        {
+          "group": "me.shedaniel",
+          "module": "RoughlyEnoughItems-fabric",
+          "version": {
+            "requires": "12.1.785"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TACZ-Refabricated-1.20.1-0.6.0-forge1.1.8.jar",
+          "url": "TACZ-Refabricated-1.20.1-0.6.0-forge1.1.8.jar",
+          "size": 57639233,
+          "sha512": "a2507a9517e88b44fc41d8e81b4f6bec54bb54113985efd46e91fcbd04471b841b5772d6ded2416f1256df57365d143d4458672e1b4da643b872f5c662cdae3c",
+          "sha256": "ddb3a239368c088b0a93be193f15fb7410733c8973a8bbc14118a7835b2cb685",
+          "sha1": "ce5a9ddd18a84173d75928d96890e10c704974d8",
+          "md5": "3f652c356cbb1fa25f28dff883f4ab6a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "TACZ-Refabricated-1.20.1-0.6.0-forge1.1.8-sources.jar",
+          "url": "TACZ-Refabricated-1.20.1-0.6.0-forge1.1.8-sources.jar",
+          "size": 53146482,
+          "sha512": "c4ec97ba3f8fb89f75d66cebf7d1de477adf3020f8448a923558e39a450d479a08a56dd85f585476e3b00251e63b9801e9aa82c63dba672a13482c7b19f1bc8b",
+          "sha256": "137140edcfc632d025731949a6e236e2738150c5bce69237fef12de300e4695b",
+          "sha1": "220b37fdbc474a6c9fa407d07b6b326065b96f66",
+          "md5": "6ec70a0d856b16f4d2736b6c5f50468c"
+        }
+      ]
+    }
+  ]
+}

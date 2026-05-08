@@ -1,0 +1,308 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.sh1rocu",
+    "module": "TACZ-Refabricated-1.21.1",
+    "version": "0.6.0-forge1.1.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "21.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TACZ-Refabricated-1.21.1-0.6.0-forge1.1.8.jar",
+          "url": "TACZ-Refabricated-1.21.1-0.6.0-forge1.1.8.jar",
+          "size": 57638188,
+          "sha512": "0c21b5a0d9135411b1b07ba003d0850eb66bd7383afa51eadbc7903f4a0842318146e834e922873c1729beece57d71da32e3298073fe3f3142a7bd2ebe6a4c76",
+          "sha256": "46fff37083d3936ffac05276bb26d3846f89a0fd79655dc0b7994e850f6cd18c",
+          "sha1": "b6f78db5c3bdfdc69913ac0bffdcf5fd504ddf58",
+          "md5": "7e8c4c0ef949e22ee6d86d96df8d058b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.maydaymemory",
+          "module": "mae",
+          "version": {
+            "requires": "1.1.1"
+          },
+          "excludes": [
+            {
+              "group": "com.google.code.findbugs",
+              "module": "jsr305"
+            },
+            {
+              "group": "it.unimi.dsi",
+              "module": "fastutil"
+            },
+            {
+              "group": "org.joml",
+              "module": "joml"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "com.github.FiguraMC.luaj",
+          "module": "luaj-core",
+          "version": {
+            "requires": "3.0.8-figura"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.commons",
+              "module": "commons-lang3"
+            }
+          ]
+        },
+        {
+          "group": "com.github.FiguraMC.luaj",
+          "module": "luaj-jse",
+          "version": {
+            "requires": "3.0.8-figura"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.commons",
+              "module": "commons-lang3"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.bcel",
+          "module": "bcel",
+          "version": {
+            "requires": "6.6.1"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.commons",
+              "module": "commons-lang3"
+            }
+          ]
+        },
+        {
+          "group": "com.moulberry",
+          "module": "mixinconstraints",
+          "version": {
+            "requires": "1.0.8"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "21.1.4"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.17.2"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.5+1.21.1"
+          }
+        },
+        {
+          "group": "libs",
+          "module": "simplebedrockmodel-fabric",
+          "version": {
+            "requires": "2.3.0.1+mc1.21.1"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "shoulder-surfing-reloaded-243190",
+          "version": {
+            "requires": "6784174"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "15.0.128"
+          }
+        },
+        {
+          "group": "dev.kosmx.player-anim",
+          "module": "player-animation-lib-fabric",
+          "version": {
+            "requires": "2.0.1+1.21.1"
+          }
+        },
+        {
+          "group": "org.ladysnake.cardinal-components-api",
+          "module": "cardinal-components-base",
+          "version": {
+            "requires": "6.1.2"
+          }
+        },
+        {
+          "group": "org.ladysnake.cardinal-components-api",
+          "module": "cardinal-components-entity",
+          "version": {
+            "requires": "6.1.2"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "nonconflictkeys-fabric-865546",
+          "version": {
+            "requires": "4572953"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.3"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "accrelatedrendering-refabricated",
+          "version": {
+            "requires": "pgm8CkON"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-fabric",
+          "version": {
+            "requires": "19.22.1.316"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "selene-499980",
+          "version": {
+            "requires": "6914081"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "mmmmmmmmmmmm-225738",
+          "version": {
+            "requires": "6826532"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "tweakeroo",
+          "version": {
+            "requires": "0.21.59"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "malilib",
+          "version": {
+            "requires": "0.21.9"
+          }
+        },
+        {
+          "group": "me.shedaniel",
+          "module": "RoughlyEnoughItems-fabric",
+          "version": {
+            "requires": "16.0.744"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "flashback",
+          "version": {
+            "requires": "pOGQFvgK"
+          }
+        },
+        {
+          "group": "com.moulberry",
+          "module": "lattice",
+          "version": {
+            "requires": "1.2.18"
+          },
+          "attributes": {
+            "earth.terrarium.cloche.modLoader": "fabric"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TACZ-Refabricated-1.21.1-0.6.0-forge1.1.8.jar",
+          "url": "TACZ-Refabricated-1.21.1-0.6.0-forge1.1.8.jar",
+          "size": 57638188,
+          "sha512": "0c21b5a0d9135411b1b07ba003d0850eb66bd7383afa51eadbc7903f4a0842318146e834e922873c1729beece57d71da32e3298073fe3f3142a7bd2ebe6a4c76",
+          "sha256": "46fff37083d3936ffac05276bb26d3846f89a0fd79655dc0b7994e850f6cd18c",
+          "sha1": "b6f78db5c3bdfdc69913ac0bffdcf5fd504ddf58",
+          "md5": "7e8c4c0ef949e22ee6d86d96df8d058b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "TACZ-Refabricated-1.21.1-0.6.0-forge1.1.8-sources.jar",
+          "url": "TACZ-Refabricated-1.21.1-0.6.0-forge1.1.8-sources.jar",
+          "size": 53222942,
+          "sha512": "ea3f1e7fd8020e9688ca39ffb02e919bc076dfa73f9097ca4327d4f7bae65a17ebeec7729fd99bae3676a12f7742c5accbd224fe4b9d9e1052f1e0e530cf7272",
+          "sha256": "0171ce000bbd3663219b321c6f172f04764680e5097c1edf54fad90ff4a253d8",
+          "sha1": "c703feae619b564da5b236f689c1475caba2389a",
+          "md5": "d6e2bfdfc340dc80cedaff63ff0b348d"
+        }
+      ]
+    }
+  ]
+}
