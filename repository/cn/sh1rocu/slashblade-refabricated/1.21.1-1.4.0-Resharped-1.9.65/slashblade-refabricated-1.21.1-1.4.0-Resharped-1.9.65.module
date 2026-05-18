@@ -37,10 +37,10 @@
           "name": "slashblade-refabricated-1.21.1-1.4.0-Resharped-1.9.65.jar",
           "url": "slashblade-refabricated-1.21.1-1.4.0-Resharped-1.9.65.jar",
           "size": 9217764,
-          "sha512": "e47a9ddbc89092219c16add9ba0f742bce0c3011471f2a49b9dc00959411ac2415c1ae291b5affc3f807801d5ed431d65af76c5a6364c5958806cf2b37c6df1f",
-          "sha256": "689bb0c0ff3379c528e56b34d0805f307c2e59f53f6d14845e184855bed65649",
-          "sha1": "9ecaf1874f65c6ce06af83c4b8d0b3d70cbeb6a3",
-          "md5": "04a74a464866c380e5aa8de66c25ea8d"
+          "sha512": "7c1f301c1966b0f9360ba376658e0fe8034210c92982fbf2b01b8fd16fbd7222601e2b8a71f5e8d4333e5a0bda1424905db2706e1dcadde10fde91c6aa8886a2",
+          "sha256": "dbd7601a6ec6e9e3fb0f58bca2cb5970b1132e6643f76f015d95977faa93191a",
+          "sha1": "38f29a88f7db0e371aabe197c3d316a09b70ccce",
+          "md5": "59b55f97639229b425a4e236a2e457eb"
         }
       ]
     },
@@ -193,10 +193,10 @@
           "name": "slashblade-refabricated-1.21.1-1.4.0-Resharped-1.9.65.jar",
           "url": "slashblade-refabricated-1.21.1-1.4.0-Resharped-1.9.65.jar",
           "size": 9217764,
-          "sha512": "e47a9ddbc89092219c16add9ba0f742bce0c3011471f2a49b9dc00959411ac2415c1ae291b5affc3f807801d5ed431d65af76c5a6364c5958806cf2b37c6df1f",
-          "sha256": "689bb0c0ff3379c528e56b34d0805f307c2e59f53f6d14845e184855bed65649",
-          "sha1": "9ecaf1874f65c6ce06af83c4b8d0b3d70cbeb6a3",
-          "md5": "04a74a464866c380e5aa8de66c25ea8d"
+          "sha512": "7c1f301c1966b0f9360ba376658e0fe8034210c92982fbf2b01b8fd16fbd7222601e2b8a71f5e8d4333e5a0bda1424905db2706e1dcadde10fde91c6aa8886a2",
+          "sha256": "dbd7601a6ec6e9e3fb0f58bca2cb5970b1132e6643f76f015d95977faa93191a",
+          "sha1": "38f29a88f7db0e371aabe197c3d316a09b70ccce",
+          "md5": "59b55f97639229b425a4e236a2e457eb"
         }
       ]
     },
@@ -212,11 +212,11 @@
         {
           "name": "slashblade-refabricated-1.21.1-1.4.0-Resharped-1.9.65-sources.jar",
           "url": "slashblade-refabricated-1.21.1-1.4.0-Resharped-1.9.65-sources.jar",
-          "size": 3555518,
-          "sha512": "83441d5542aca3f47abdbdbe1aa904d5dcfd177ffe778fd306215194530534afbaf7bf211666e81b885469837d594acce2a9b2334a831d01da6d7775c7189a0f",
-          "sha256": "c259b44cab261824160ab74293a0f253d36cbd2169559ab8dfa6b800b73b23a2",
-          "sha1": "0ff95946ab191249eb6a0b9ff94a539e808ea578",
-          "md5": "b688493c2464a6b01b349a3aea2f3815"
+          "size": 3555516,
+          "sha512": "066534e29656afe4b1357fa27e59cee5ea981150acdf2f05ebcc3d02cf6238e4514a971be538dad2b3a8713bf1472c34ee38fb43979ceb28449871ba810a1524",
+          "sha256": "204631166247f66f774c62587d75d59bd7517f41998a6cf2965f8db212b6ed7a",
+          "sha1": "88cc4463f0941b65f05c1b20493e6a9c591ddc7c",
+          "md5": "6d7d070bfd86763b8ea9a45ae090cc20"
         }
       ]
     }
