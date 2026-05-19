@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>cn.sh1rocu</groupId>
   <artifactId>slashblade-refabricated</artifactId>
-  <version>1.21.1-1.4.0-Resharped-1.9.65</version>
+  <version>1.21.1-1.4.1-Resharped-1.9.65</version>
   <dependencies>
     <dependency>
       <groupId>fuzs.forgeconfigapiport</groupId>

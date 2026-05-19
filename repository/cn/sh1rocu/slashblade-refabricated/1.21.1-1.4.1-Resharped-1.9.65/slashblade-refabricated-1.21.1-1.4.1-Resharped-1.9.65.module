@@ -3,7 +3,7 @@
   "component": {
     "group": "cn.sh1rocu",
     "module": "slashblade-refabricated",
-    "version": "1.21.1-1.4.0-Resharped-1.9.65",
+    "version": "1.21.1-1.4.1-Resharped-1.9.65",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -34,13 +34,13 @@
       ],
       "files": [
         {
-          "name": "slashblade-refabricated-1.21.1-1.4.0-Resharped-1.9.65.jar",
-          "url": "slashblade-refabricated-1.21.1-1.4.0-Resharped-1.9.65.jar",
-          "size": 9217764,
-          "sha512": "7c1f301c1966b0f9360ba376658e0fe8034210c92982fbf2b01b8fd16fbd7222601e2b8a71f5e8d4333e5a0bda1424905db2706e1dcadde10fde91c6aa8886a2",
-          "sha256": "dbd7601a6ec6e9e3fb0f58bca2cb5970b1132e6643f76f015d95977faa93191a",
-          "sha1": "38f29a88f7db0e371aabe197c3d316a09b70ccce",
-          "md5": "59b55f97639229b425a4e236a2e457eb"
+          "name": "slashblade-refabricated-1.21.1-1.4.1-Resharped-1.9.65.jar",
+          "url": "slashblade-refabricated-1.21.1-1.4.1-Resharped-1.9.65.jar",
+          "size": 9217904,
+          "sha512": "b01f9bcd419effcb3974be3629410f02404c96fd8dd6dd81e325a93d90a22cc814b595778e1cd157fcc6f2a8aebb652bd38f9fbc00caa5298e105ffedcb29702",
+          "sha256": "2d9a74440fb1b1c18dad74401f56bfe0eaa0bfcfbf4450be17f0fa847edcf162",
+          "sha1": "6f7148742137f0134d975e9353032a2a0e767a47",
+          "md5": "72f7f5e67cfc9b0d746c0aa6cf0b67a4"
         }
       ]
     },
@@ -190,13 +190,13 @@
       ],
       "files": [
         {
-          "name": "slashblade-refabricated-1.21.1-1.4.0-Resharped-1.9.65.jar",
-          "url": "slashblade-refabricated-1.21.1-1.4.0-Resharped-1.9.65.jar",
-          "size": 9217764,
-          "sha512": "7c1f301c1966b0f9360ba376658e0fe8034210c92982fbf2b01b8fd16fbd7222601e2b8a71f5e8d4333e5a0bda1424905db2706e1dcadde10fde91c6aa8886a2",
-          "sha256": "dbd7601a6ec6e9e3fb0f58bca2cb5970b1132e6643f76f015d95977faa93191a",
-          "sha1": "38f29a88f7db0e371aabe197c3d316a09b70ccce",
-          "md5": "59b55f97639229b425a4e236a2e457eb"
+          "name": "slashblade-refabricated-1.21.1-1.4.1-Resharped-1.9.65.jar",
+          "url": "slashblade-refabricated-1.21.1-1.4.1-Resharped-1.9.65.jar",
+          "size": 9217904,
+          "sha512": "b01f9bcd419effcb3974be3629410f02404c96fd8dd6dd81e325a93d90a22cc814b595778e1cd157fcc6f2a8aebb652bd38f9fbc00caa5298e105ffedcb29702",
+          "sha256": "2d9a74440fb1b1c18dad74401f56bfe0eaa0bfcfbf4450be17f0fa847edcf162",
+          "sha1": "6f7148742137f0134d975e9353032a2a0e767a47",
+          "md5": "72f7f5e67cfc9b0d746c0aa6cf0b67a4"
         }
       ]
     },
@@ -210,13 +210,13 @@
       },
       "files": [
         {
-          "name": "slashblade-refabricated-1.21.1-1.4.0-Resharped-1.9.65-sources.jar",
-          "url": "slashblade-refabricated-1.21.1-1.4.0-Resharped-1.9.65-sources.jar",
-          "size": 3555516,
-          "sha512": "066534e29656afe4b1357fa27e59cee5ea981150acdf2f05ebcc3d02cf6238e4514a971be538dad2b3a8713bf1472c34ee38fb43979ceb28449871ba810a1524",
-          "sha256": "204631166247f66f774c62587d75d59bd7517f41998a6cf2965f8db212b6ed7a",
-          "sha1": "88cc4463f0941b65f05c1b20493e6a9c591ddc7c",
-          "md5": "6d7d070bfd86763b8ea9a45ae090cc20"
+          "name": "slashblade-refabricated-1.21.1-1.4.1-Resharped-1.9.65-sources.jar",
+          "url": "slashblade-refabricated-1.21.1-1.4.1-Resharped-1.9.65-sources.jar",
+          "size": 3555573,
+          "sha512": "edb5cf7d34e5221863e520717b41b7ae87a4bf43d80d96f6b8fa2ad9c8644387ebcf109bb3f27a07f944ce76be902207ee8a0bd0e703f2810fcc71f49a8845d0",
+          "sha256": "3631b02d1b8e732064b6d2d35bf94005784d1af9df5a8c6e116cf4dc1191a65e",
+          "sha1": "2f4131d198f93d146e76b600a1c226640f467141",
+          "md5": "b053ef9ede56b561a8299dde460d66c5"
         }
       ]
     }
