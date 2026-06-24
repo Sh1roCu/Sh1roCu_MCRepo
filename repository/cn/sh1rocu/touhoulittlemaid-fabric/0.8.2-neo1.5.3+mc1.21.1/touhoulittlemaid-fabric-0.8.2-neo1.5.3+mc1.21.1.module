@@ -344,22 +344,11 @@
           }
         },
         {
-          "group": "libs",
+          "group": "io.github.cottonmc",
           "module": "LibGui",
           "version": {
             "requires": "11.1.0+1.21"
           }
-        },
-        {
-          "group": "libs",
-          "module": "Jankson-Fabric",
-          "version": {
-            "requires": "8.0.0+j1.2.3"
-          }
-        },
-        {
-          "group": null,
-          "module": "libninepatch-1.2.0"
         },
         {
           "group": "me.zeroeightsix",
