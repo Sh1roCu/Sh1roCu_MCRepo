@@ -1,0 +1,154 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.sh1rocu",
+    "module": "slashblade-refabricated",
+    "version": "26.1.2-1.0.0-Resharped-1.9.65",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "26.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "slashblade-refabricated-26.1.2-1.0.0-Resharped-1.9.65.jar",
+          "url": "slashblade-refabricated-26.1.2-1.0.0-Resharped-1.9.65.jar",
+          "size": 4136470,
+          "sha512": "c345a9acaabc7efa627ce3bf9ed444e79628f80b110e02f988dfa56b115ca35f4a98c1b4a9994932acb3a15b652607cb227dc640737b06f888312318836432f0",
+          "sha256": "a8af1870201d7a97335932170b2f52b58fb924903809aa73f5fb487583bee21b",
+          "sha1": "d89db095d074d7ed1b4cf6ba4016c3fe96777e95",
+          "md5": "0eb974859e8d69e32d347be92019a2bf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.19.2"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.149.1+26.1.2"
+          }
+        },
+        {
+          "group": "org.ladysnake.cardinal-components-api",
+          "module": "cardinal-components-base",
+          "version": {
+            "requires": "8.0.0"
+          }
+        },
+        {
+          "group": "org.ladysnake.cardinal-components-api",
+          "module": "cardinal-components-entity",
+          "version": {
+            "requires": "8.0.0"
+          }
+        },
+        {
+          "group": "com.zigythebird.playeranim",
+          "module": "PlayerAnimationLibFabric",
+          "version": {
+            "requires": "1.2.4+mc.26.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-26.1.2-fabric",
+          "version": {
+            "requires": "29.5.0.28"
+          }
+        },
+        {
+          "group": "vazkii.patchouli",
+          "module": "patchouli-fabric",
+          "version": {
+            "requires": "26.1-94"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "26.1.4"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "ankinbt",
+          "version": {
+            "requires": "Rn3wocxw"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "slashblade-refabricated-26.1.2-1.0.0-Resharped-1.9.65.jar",
+          "url": "slashblade-refabricated-26.1.2-1.0.0-Resharped-1.9.65.jar",
+          "size": 4136470,
+          "sha512": "c345a9acaabc7efa627ce3bf9ed444e79628f80b110e02f988dfa56b115ca35f4a98c1b4a9994932acb3a15b652607cb227dc640737b06f888312318836432f0",
+          "sha256": "a8af1870201d7a97335932170b2f52b58fb924903809aa73f5fb487583bee21b",
+          "sha1": "d89db095d074d7ed1b4cf6ba4016c3fe96777e95",
+          "md5": "0eb974859e8d69e32d347be92019a2bf"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "slashblade-refabricated-26.1.2-1.0.0-Resharped-1.9.65-sources.jar",
+          "url": "slashblade-refabricated-26.1.2-1.0.0-Resharped-1.9.65-sources.jar",
+          "size": 3541014,
+          "sha512": "3886a101be5b7c2ca836e7cc0499fa86dc3a40c966d2698540948d97737ad0e8d17ce9321494e2b791600510043928d7b65cf592be91ac2e9d335e1b1b7fbaa4",
+          "sha256": "c42c60a2a95ed0eb026186fd31bee2ea083d70234daa8649781e26032a49c485",
+          "sha1": "a5ad4b1dceeede3e09074ca747c308aa022f5534",
+          "md5": "34e00970333e834b0ce8dc5425dfe413"
+        }
+      ]
+    }
+  ]
+}

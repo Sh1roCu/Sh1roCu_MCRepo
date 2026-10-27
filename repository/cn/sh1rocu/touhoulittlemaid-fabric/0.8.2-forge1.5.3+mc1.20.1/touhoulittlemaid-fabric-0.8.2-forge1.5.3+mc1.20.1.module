@@ -227,7 +227,7 @@
         },
         {
           "group": "maven.modrinth",
-          "module": "cyberanner-ironchest",
+          "module": "ironchest",
           "version": {
             "requires": "2.0.2"
           }
@@ -508,10 +508,10 @@
           "name": "touhoulittlemaid-fabric-0.8.2-forge1.5.3+mc1.20.1-sources.jar",
           "url": "touhoulittlemaid-fabric-0.8.2-forge1.5.3+mc1.20.1-sources.jar",
           "size": 22149901,
-          "sha512": "df84b3395175dab05a3fef8aaec52987592e664e88b367a24ce344949972d20e738e86052f5119ec1a0f51cb1c3659e159d16398303b7ebd7970c83d638e0381",
-          "sha256": "de4e76e54d5545bd5fbbd277d2917a931c3e222cb135976c451cdfc4555365ea",
-          "sha1": "c99357b6800a5cd64982fb215725ac1da85f093e",
-          "md5": "4dfd73e4946bc46b176871d1ba0960ea"
+          "sha512": "3506f6788d4d64a0aa442e895b1d8095978f55b213e891aac423a84315f0370685b61a950754452cfc3862c400e5e71eb2de179d05e5c285bda4cf1d4da1d854",
+          "sha256": "b69904604daffe330251c4eab0034d4473a9232f4e2dea046fb2cb471c656ff4",
+          "sha1": "f733263cc3454e1f558bb290b0e2ff337074f746",
+          "md5": "c2957a3bc956e3ccfb6a704ffecc67a7"
         }
       ]
     }

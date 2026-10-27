@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.sh1rocu</groupId>
+  <artifactId>slashblade-refabricated</artifactId>
+  <version>26.1.2-1.0.0-Resharped-1.9.65</version>
+  <dependencies>
+    <dependency>
+      <groupId>fuzs.forgeconfigapiport</groupId>
+      <artifactId>forgeconfigapiport-fabric</artifactId>
+      <version>26.1.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.fabricmc</groupId>
+      <artifactId>fabric-loader</artifactId>
+      <version>0.19.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.fabricmc.fabric-api</groupId>
+      <artifactId>fabric-api</artifactId>
+      <version>0.149.1+26.1.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.ladysnake.cardinal-components-api</groupId>
+      <artifactId>cardinal-components-base</artifactId>
+      <version>8.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.ladysnake.cardinal-components-api</groupId>
+      <artifactId>cardinal-components-entity</artifactId>
+      <version>8.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.zigythebird.playeranim</groupId>
+      <artifactId>PlayerAnimationLibFabric</artifactId>
+      <version>1.2.4+mc.26.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>mezz.jei</groupId>
+      <artifactId>jei-26.1.2-fabric</artifactId>
+      <version>29.5.0.28</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>vazkii.patchouli</groupId>
+      <artifactId>patchouli-fabric</artifactId>
+      <version>26.1-94</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>maven.modrinth</groupId>
+      <artifactId>ankinbt</artifactId>
+      <version>Rn3wocxw</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
