@@ -36,11 +36,11 @@
         {
           "name": "tacz-refabricated-1.0.0-forge1.2.0+mc1.20.1.jar",
           "url": "tacz-refabricated-1.0.0-forge1.2.0+mc1.20.1.jar",
-          "size": 69063116,
-          "sha512": "3efb8fd15559469534fbdbcc8e25c6446f9d138d6a353fbfe0b08c1a11a197267f72161693ff9a7499d3d06ff0660be50f982a7383ba7e826012441ce4a599b3",
-          "sha256": "0f7cb9eaa66d4fb912febf6413513f479c42c6d7be9d54f53e72974eabe5a154",
-          "sha1": "4f0a7f955b1a75a7f857f74aa9c38b4a83e6c723",
-          "md5": "37d45eae57fcdd7c4a1bb4242abe88c5"
+          "size": 69078327,
+          "sha512": "33c64e631c5555c0df106cc2e99524a7f5b4a6fad961b8c0ea2e8411ad3fc5e783015ed58699f95983406aa49f8a14986f5fbf30c53358cc67fe51ea38694a7e",
+          "sha256": "7c1a5227321460a5d97060924deff338c14fd6c6f2c92246907561992bba90c3",
+          "sha1": "1de71aa3fc17bbea21b65810075f7b8495ee7fcf",
+          "md5": "2ffa400dbdf55249100891a473534098"
         }
       ]
     },
@@ -146,28 +146,7 @@
           "group": "libs",
           "module": "simplebedrockmodel-fabric",
           "version": {
-            "requires": "2.6.1.2+mc1.20.1"
-          }
-        },
-        {
-          "group": "curse.maven",
-          "module": "shoulder-surfing-reloaded-243190",
-          "version": {
-            "requires": "6784146"
-          }
-        },
-        {
-          "group": "me.shedaniel.cloth",
-          "module": "cloth-config-fabric",
-          "version": {
-            "requires": "11.1.106"
-          }
-        },
-        {
-          "group": "dev.kosmx.player-anim",
-          "module": "player-animation-lib-fabric",
-          "version": {
-            "requires": "1.0.2-rc1+1.20"
+            "requires": "2.6.2+mc1.20.1"
           }
         },
         {
@@ -183,80 +162,17 @@
           "version": {
             "requires": "5.2.3"
           }
-        },
-        {
-          "group": "com.terraformersmc",
-          "module": "modmenu",
-          "version": {
-            "requires": "7.2.2"
-          }
-        },
-        {
-          "group": "maven.modrinth",
-          "module": "accrelatedrendering-refabricated",
-          "version": {
-            "requires": "1.0.8-1.20.1-alpha-fabric.1"
-          }
-        },
-        {
-          "group": "mezz.jei",
-          "module": "jei-1.20.1-fabric",
-          "version": {
-            "requires": "15.20.0.104"
-          }
-        },
-        {
-          "group": "curse.maven",
-          "module": "spark-361579",
-          "version": {
-            "requires": "4738953"
-          }
-        },
-        {
-          "group": "curse.maven",
-          "module": "selene-499980",
-          "version": {
-            "requires": "6902843"
-          }
-        },
-        {
-          "group": "curse.maven",
-          "module": "mmmmmmmmmmmm-225738",
-          "version": {
-            "requires": "6826546"
-          }
-        },
-        {
-          "group": "curse.maven",
-          "module": "nonconflictkeys-fabric-865546",
-          "version": {
-            "requires": "4572953"
-          }
-        },
-        {
-          "group": "maven.modrinth",
-          "module": "tweakeroo",
-          "version": {
-            "requires": "0.17.1"
-          }
-        },
-        {
-          "group": "maven.modrinth",
-          "module": "malilib",
-          "version": {
-            "requires": "0.16.3"
-          }
         }
       ],
       "files": [
         {
           "name": "tacz-refabricated-1.0.0-forge1.2.0+mc1.20.1.jar",
           "url": "tacz-refabricated-1.0.0-forge1.2.0+mc1.20.1.jar",
-          "size": 69063116,
-          "sha512": "3efb8fd15559469534fbdbcc8e25c6446f9d138d6a353fbfe0b08c1a11a197267f72161693ff9a7499d3d06ff0660be50f982a7383ba7e826012441ce4a599b3",
-          "sha256": "0f7cb9eaa66d4fb912febf6413513f479c42c6d7be9d54f53e72974eabe5a154",
-          "sha1": "4f0a7f955b1a75a7f857f74aa9c38b4a83e6c723",
-          "md5": "37d45eae57fcdd7c4a1bb4242abe88c5"
+          "size": 69078327,
+          "sha512": "33c64e631c5555c0df106cc2e99524a7f5b4a6fad961b8c0ea2e8411ad3fc5e783015ed58699f95983406aa49f8a14986f5fbf30c53358cc67fe51ea38694a7e",
+          "sha256": "7c1a5227321460a5d97060924deff338c14fd6c6f2c92246907561992bba90c3",
+          "sha1": "1de71aa3fc17bbea21b65810075f7b8495ee7fcf",
+          "md5": "2ffa400dbdf55249100891a473534098"
         }
       ]
     },
@@ -272,11 +188,11 @@
         {
           "name": "tacz-refabricated-1.0.0-forge1.2.0+mc1.20.1-sources.jar",
           "url": "tacz-refabricated-1.0.0-forge1.2.0+mc1.20.1-sources.jar",
-          "size": 64035583,
-          "sha512": "ae4a89d9974c6d30dc9a6bb800ee5fe6869482443fbfcc67a3755b754f4429fb290aa6d770d151ce75925bede1d6a0845422046e5d60789f35a22bb2d7806afa",
-          "sha256": "6b1ec9c432ac5e47c1772f8f66f397efd8c1fc2a2ca839a7d7022a093ba35ebe",
-          "sha1": "beced7e72bfe768d4f221783266486da4721299c",
-          "md5": "53b83d1ffb0f1bd86aee672b54a90231"
+          "size": 64043921,
+          "sha512": "b3f05633d8032b4322b339bfe5074aa5ef28e1f2ccd41e129eeda0b244ee69a05c94b85db01b2b288c7851919b1c709830924ff93ce04f9a583779d7e7d9280d",
+          "sha256": "0686d570d020aa8d63f086291af953f24965afc924b677c14a3b3f7cde121a15",
+          "sha1": "322cb1b7f625db63b59524bfd9d9a670e5884630",
+          "md5": "d6658b61135d6dc17c966f58a115d85f"
         }
       ]
     }

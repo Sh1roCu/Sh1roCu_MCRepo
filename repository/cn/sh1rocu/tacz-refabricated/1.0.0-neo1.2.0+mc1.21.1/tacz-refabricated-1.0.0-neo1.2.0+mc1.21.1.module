@@ -36,11 +36,11 @@
         {
           "name": "tacz-refabricated-1.0.0-neo1.2.0+mc1.21.1.jar",
           "url": "tacz-refabricated-1.0.0-neo1.2.0+mc1.21.1.jar",
-          "size": 69238202,
-          "sha512": "edbd0291b913a185a03a2af7174ca89b94798fb24fd5c2cab69b800ecf166c67e5fb1e0781259fcb18d8c79aeab81950bdb3ebe3d14ddcdf342c723f8bbcfe22",
-          "sha256": "4d8591e0248dac8bcc02b1d5a0481ab0110867b526c32ef44a8db6c4ed5baa08",
-          "sha1": "0c51c95d88c92dbde26327fb80832af95d0f4e3e",
-          "md5": "28a53d50d40e5605eaab95c3b2399db4"
+          "size": 69270195,
+          "sha512": "51214dd811c52afa9dd1226e91b619293f6529fa7aa634068a90f08367a047f61b13c118558fba964be07e6d0dd13779c1240ddae9f797aa4cab584b569fc704",
+          "sha256": "44d01ee110d9887284aa0843d0f708ad743db319417250f7b617c98e8ed8b364",
+          "sha1": "b7dc9e036be80b43eb47a3bd69013262433eceb9",
+          "md5": "73cf7a389ffb91d0ebc1a95643669872"
         }
       ]
     },
@@ -122,13 +122,6 @@
           ]
         },
         {
-          "group": "com.moulberry",
-          "module": "mixinconstraints",
-          "version": {
-            "requires": "1.0.8"
-          }
-        },
-        {
           "group": "fuzs.forgeconfigapiport",
           "module": "forgeconfigapiport-fabric",
           "version": {
@@ -153,28 +146,7 @@
           "group": "libs",
           "module": "simplebedrockmodel-fabric",
           "version": {
-            "requires": "2.6.1.2+mc1.21.1"
-          }
-        },
-        {
-          "group": "curse.maven",
-          "module": "shoulder-surfing-reloaded-243190",
-          "version": {
-            "requires": "6784174"
-          }
-        },
-        {
-          "group": "me.shedaniel.cloth",
-          "module": "cloth-config-fabric",
-          "version": {
-            "requires": "15.0.128"
-          }
-        },
-        {
-          "group": "dev.kosmx.player-anim",
-          "module": "player-animation-lib-fabric",
-          "version": {
-            "requires": "2.0.1+1.21.1"
+            "requires": "2.6.2+mc1.21.1"
           }
         },
         {
@@ -192,76 +164,10 @@
           }
         },
         {
-          "group": "curse.maven",
-          "module": "nonconflictkeys-fabric-865546",
+          "group": "me.shedaniel",
+          "module": "RoughlyEnoughItems-fabric",
           "version": {
-            "requires": "4572953"
-          }
-        },
-        {
-          "group": "com.terraformersmc",
-          "module": "modmenu",
-          "version": {
-            "requires": "11.0.3"
-          }
-        },
-        {
-          "group": "maven.modrinth",
-          "module": "accrelatedrendering-refabricated",
-          "version": {
-            "requires": "pgm8CkON"
-          }
-        },
-        {
-          "group": "mezz.jei",
-          "module": "jei-1.21.1-fabric",
-          "version": {
-            "requires": "19.22.1.316"
-          }
-        },
-        {
-          "group": "curse.maven",
-          "module": "selene-499980",
-          "version": {
-            "requires": "6914081"
-          }
-        },
-        {
-          "group": "curse.maven",
-          "module": "mmmmmmmmmmmm-225738",
-          "version": {
-            "requires": "6826532"
-          }
-        },
-        {
-          "group": "maven.modrinth",
-          "module": "tweakeroo",
-          "version": {
-            "requires": "0.21.59"
-          }
-        },
-        {
-          "group": "maven.modrinth",
-          "module": "malilib",
-          "version": {
-            "requires": "0.21.9"
-          }
-        },
-        {
-          "group": "maven.modrinth",
-          "module": "flashback",
-          "version": {
-            "requires": "pOGQFvgK"
-          }
-        },
-        {
-          "group": "com.moulberry",
-          "module": "lattice",
-          "version": {
-            "requires": "1.2.18"
-          },
-          "attributes": {
-            "earth.terrarium.cloche.modLoader": "fabric"
+            "requires": "16.0.744"
           }
         }
       ],
@@ -269,11 +175,11 @@
         {
           "name": "tacz-refabricated-1.0.0-neo1.2.0+mc1.21.1.jar",
           "url": "tacz-refabricated-1.0.0-neo1.2.0+mc1.21.1.jar",
-          "size": 69238202,
-          "sha512": "edbd0291b913a185a03a2af7174ca89b94798fb24fd5c2cab69b800ecf166c67e5fb1e0781259fcb18d8c79aeab81950bdb3ebe3d14ddcdf342c723f8bbcfe22",
-          "sha256": "4d8591e0248dac8bcc02b1d5a0481ab0110867b526c32ef44a8db6c4ed5baa08",
-          "sha1": "0c51c95d88c92dbde26327fb80832af95d0f4e3e",
-          "md5": "28a53d50d40e5605eaab95c3b2399db4"
+          "size": 69270195,
+          "sha512": "51214dd811c52afa9dd1226e91b619293f6529fa7aa634068a90f08367a047f61b13c118558fba964be07e6d0dd13779c1240ddae9f797aa4cab584b569fc704",
+          "sha256": "44d01ee110d9887284aa0843d0f708ad743db319417250f7b617c98e8ed8b364",
+          "sha1": "b7dc9e036be80b43eb47a3bd69013262433eceb9",
+          "md5": "73cf7a389ffb91d0ebc1a95643669872"
         }
       ]
     },
@@ -289,11 +195,11 @@
         {
           "name": "tacz-refabricated-1.0.0-neo1.2.0+mc1.21.1-sources.jar",
           "url": "tacz-refabricated-1.0.0-neo1.2.0+mc1.21.1-sources.jar",
-          "size": 64196766,
-          "sha512": "447db924ae7049f3c06aa04177294dc611e9805b9e3b4576b66228db41ccc849c5cb457216ab8ded335cdfdb5df5d2a17f277e5715aa39cb9ef31501c0e298a9",
-          "sha256": "782785ca80db8394438b5dc7b11644b8d51c02a67640fdf5627c0185e739c9b6",
-          "sha1": "6c6a8e7a13e80e2e29c205cb18c8210702671fa0",
-          "md5": "11aed1b65a68265e0520419709133954"
+          "size": 64211879,
+          "sha512": "0c4de7d5ee885ecc1e7f73fed123fbed70d0c269c8b908e935a965c42dbdb48346a90842319505b70d4127703bbf56f8743df23decc6183840d914099c778450",
+          "sha256": "deef10fb1d6eb32bc986e315128d2b02d1ea236e8667327353041cf66d262be4",
+          "sha1": "31612291d22bb89dfda35636cd61505b834a7708",
+          "md5": "387e5ccfcd554179c41adddeb036ed42"
         }
       ]
     }
